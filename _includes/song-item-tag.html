@@ -1,0 +1,39 @@
+{% if page.title %}
+<code>SONG:</code> {{page.title}}<br>
+{% endif %}
+
+{% if page.artist %}
+<code>ARTIST:</code> {{page.artist}}<br>
+{% endif %}
+
+{% if page.featuring %}
+<code>FEATURING:</code> <em>{{page.featuring}}</em><br>
+{% endif %}
+
+
+{% if page.composition %}
+<code>COMPOSITION:</code><br>
+{{page.composition}}<br>
+{% endif %}
+
+{% if page.series %}
+<code>SERIES:</code> {{page.series}}<br>
+{% endif %}
+
+{% if page.scenario %}
+<code>SCENARIO:</code><div class="tag-scenario">{{page.scenario}}</div>
+{% endif %}
+
+{% if page.research %}
+<code>RESEARCH:</code> {{page.research}}<br>
+{% endif %}
+
+{% if page.isrc %}
+<code>ISRC:</code> <code> <strong> {{page.isrc}} </strong> </code><br>
+{% endif %}
+
+{% if page.number %}
+<code>ISSUE NUMBER:</code> <code> <div class="tagnumber"> {{page.number}} </div> </code>
+<br>
+{% endif %}
+
