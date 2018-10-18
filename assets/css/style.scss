@@ -186,4 +186,33 @@ header {
             height: 1px;
             background: black;
     }
+
+    .right-side {
+        float:right;
+        .main-menu-bar {
+            width: 100%;
+            padding-bottom: 1em;
+            .main-menu {
+                float: right;
+                padding-bottom: 0px;
+                .menu-item {
+                    display: inline;
+                    font-size: 1em;
+                    color: grey;
+                    font-family: 'Courier New', Courier, monospace;
+                    cursor: pointer;
+                    padding-right: 20px;
+                }
+                .menu-item:hover {
+                    text-decoration: underline;
+                    text-decoration-color: grey;
+                }
+                .selected {
+                    text-decoration: underline;
+                    text-decoration-color: blue;
+                    color: black;
+                }
+            }
+        }
+    }
 }

@@ -19,6 +19,8 @@
                         {% include song-item-tag.html %}
                         {% elsif page.title == "Recordings From Later" %}
                         {% include recordings-tag.html %}
+                        {% else%}
+                        {% include generic-tag.html %}
                         {% endif %}
                     </div>
                     <div class="tagbottom">
