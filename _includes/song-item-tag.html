@@ -21,7 +21,7 @@
 {% endif %}
 
 {% if page.scenario %}
-<code>SCENARIO:</code><div class="tag-scenario">{{page.scenario}}</div>
+<code>SCENARIO:</code> {{page.scenario}} <br>
 {% endif %}
 
 {% if page.research %}
@@ -29,11 +29,11 @@
 {% endif %}
 
 {% if page.isrc %}
-<code>ISRC:</code> <code> <strong> {{page.isrc}} </strong> </code><br>
+<code>ISRC:</code> <code> <strong> {{page.isrc}} </strong> </code> <br>
 {% endif %}
 
 {% if page.number %}
-<code>ISSUE NUMBER:</code> <code> <div class="tagnumber"> {{page.number}} </div> </code>
-<br>
+<code>ISSUE NUMBER:</code> {{page.number}} </code> <br>
+
 {% endif %}
 

@@ -4,13 +4,18 @@
     <body>
 	<div class="wrapper">
 	    <header>
-		<img id="main-logo" src="{{ '/assets/images/recordings-from-later.svg' | relative_url }}" onclick="location.href='/songs/';">
-                {% if page.source %}
+        {% if page.logo %}
+            <h1 style="font-size:52px">{{ page.title }}</h1>
+            <img id="main-logo" src="{{ page.logo | relative_url }}">
+        {% else %}
+        <img id="main-logo" src="{{ '/assets/images/recordings-from-later.svg' | relative_url }}" onclick="location.href='/songs/';">
+        {% endif %}
+        {% if page.source %}
 		<audio controls preload="auto" onplay="ga('send', 'event', 'Audio', 'play', '{{page.title}}');">
 		    <source src="{{ page.source }}" type="audio/mpeg">
 		    Your browser does not support the audio element.
 		</audio>
-                {% endif %}
+        {% endif %}
 		<br>
 		<div id="fl-tag">
                     <div id="innertag">
