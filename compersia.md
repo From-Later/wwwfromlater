@@ -5,7 +5,7 @@ logo: "/assets/images/ephemera-from-later.svg"
 tagitems:
     - tag:
         name: "SCENARIO"
-        value: "Compersia is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about the future scenario and the signals of change that informed it."
+        value: "Compersia is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
     - tag:
         name: "FILE UNDER"
         value: "Research-based, near-term, speculative futures; design fiction"
@@ -15,8 +15,10 @@ tagitems:
     - tag:
         name: "RESEARCH"
         value: "M. Siu, R. Bolton, U. Vira, A. Alikpala"
-introtext: "Compersia is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy. Click the headings below to learn more about the future scenario and our process."
+introtext: "Compersia is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about the future scenario and the signals of change that informed it."
 ---
+
+* * *
 
 ## [ Scenario ]
 
@@ -45,7 +47,7 @@ _The Modest Proposal_ is a complex relationship design tool. It enables multi-pa
 
 ## [ Research ]
 
-Compersia is a research-based speculative fiction. The following research themes – _Transient Lifestyles_; _Identity Complexity_; _New Forms of Kinship_; _Non-monogamy_; _Designing Relationship Wellness_; and _Augmenting Understanding_ – informed the scenario and future artifacts. The themes themes and instances below provide context for imagining how historical and present-day issues could evolve.
+Compersia is a research-based speculative fiction. The following research themes – _Transient Lifestyles_; _Identity Complexity_; _New Forms of Kinship_; _Non-monogamy_; _Designing Relationship Wellness_; and _Augmenting Understanding_ – informed the scenario and future artifacts. The themes and instances below provide context for imagining how historical and present-day issues could evolve.
 
 ### Transient Lifestyles
 A confluence of socio-economic and technological factors are creating the conditions for more transient life stages, lifestyles, and living situations.
