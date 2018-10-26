@@ -11,7 +11,7 @@ tagitems:
         value: "Research-based, near-term, speculative futures; design fiction"
     - tag:
         name: "PROJECT LEAD"
-        value: "[ Macy Siu ] from later"
+        value: "[ Macy Siu ] <em>from later</em>"
     - tag:
         name: "RESEARCH"
         value: "M. Siu, R. Bolton, U. Vira, A. Alikpala"
@@ -28,22 +28,13 @@ A generation disillusioned with the institution of marriage views monogamy with 
 
 Through the early ‘20s, a cambrian explosion of relationship types set tradition into flux. En masse, people began establishing their own unique polycules, multi-layered complex structures of kinship and non-monogamous romance.
 
-Meanwhile, conservative values sought to protect the fideliti-normative home. Commentators criticised the polyamorous lifestyle as not only immoral, but also unfeasible. Maintaining a healthy two-person relationship was challenging enough. Managing the needs and desires of many partners in a complex polycule was just a recipe for drama. Or so went the argument. 
+Meanwhile, conservative values sought to protect the fidelitinormative home. Commentators criticised the polyamorous lifestyle as not only immoral, but also unfeasible. Maintaining a healthy two-person relationship was challenging enough. Managing the needs and desires of many partners in a complex polycule was just a recipe for drama. Or so went the argument. 
 
 The critics were silenced in 2023, when the long period of tension came to a head. Dubbed Vulnerable Summer, anarcho-love festivals and hackathons organized by global TDFP advocates dominated news cycles, eventually swaying popular opinion. The relationship maker movement emerged, designing new ways of forming tailored relationships with recognized terms of agreement. 
 
 Polyamory revealed itself as a platform for innovation with real economic value. It sparked the foundings of new varieties of membership-based wellness hubs. New service professions, holistic matchmakers and lifestyle transitionists, facilitated people’s absorption into polycules. And at the intersection of ethics and design, arose a wave of tools for expectation arbitration, dispute resolution, and egalitarian living.
 
 The new Culture of Compersion produced the most significant revolution in communication since networked media; what the Information Age did for scale of communication, Compersia did for quality of communication. 
-
-## [ Artifacts ]
-
-The following artifacts from later present ephemeral traces of the future world, Compersia. 
-
-_The Modest Proposal_ is a complex relationship design tool. It enables multi-partner relationship formation through the smart synthesis of personal preferences and interactive agreement-making. The images below capture moments within the interactive experience of negotiating a relationship using the tool
-
-![](/assets/images/modest-proposal-1.png)
-![](/assets/images/modest-proposal-2.png)
 
 ## [ Research ]
 
@@ -55,25 +46,25 @@ A confluence of socio-economic and technological factors are creating the condit
 **The “world of barren opportunities facing today’s young people”** means that basic stages of adulthood are no longer attainable at the same time as previous generations, leading to a certain need for transience around housing, jobs, and relationships. [∎](https://www.theguardian.com/world/2016/mar/07/revealed-30-year-economic-betrayal-dragging-down-generation-y-income){:target="_bank"}
 
 
-**The Collective London** offers “a new way to live, work, and play.” It is the largest shared living space designed for millennials, who are extending the transient period of early adulthood longer than any previous generation. [∎](ttps://www.thecollective.com/){:target="_bank"}
+**The Collective London** offers “a new way to live, work, and play.” It is the largest shared living space designed for millennials, who are extending the transient period of early adulthood longer than any previous generation. [∎](https://www.thecollective.com/){:target="_bank"}
 
 **Egalitarian economic arrangements of full income sharing**, along with other cooperative structures of living, are gaining popularity and shifting from more rural agricultural homesteads to urban group houses in major city centers. The Federation of Egalitarian Communities, for example, is a network of communal groups across North America, joined together to create a lifestyle based on equality, cooperation, and harmony. [∎](http://www.thefec.org/communities/){:target="_bank"}
 
 ### Identity Complexity
 
-New and newly visible ways of forming identity reveal that it is not only intersectional but may also be plural, fluid, and dynamic. As a result, the variety of recognized social identities is proliferating. With implications for language, infrastructure, safety, and healthcare—the politics of identity are an area of considerable controversy and conflict.
+New and newly visible ways of forming identity reveal that it is not only intersectional but may also be plural, fluid, and dynamic. As a result, the variety of recognized social identities is proliferating. With implications for language, infrastructure, safety, and healthcare – the politics of identity are an area of considerable controversy and conflict.
 
-**Dating app, Tinder, has introduced thirty-seven new gender options**, allowing users to select and update their status at will. [∎](https://blog.gotinder.com/genders/){:target="_bank"}
+**The dating app, Tinder, has introduced thirty-seven new gender options**, allowing users to select and update their status at will. [∎](https://blog.gotinder.com/genders/){:target="_bank"}
 
 **California’s “Gender Recognition Act,”** recognizes a third, non-binary gender category for Californians who do not identify as either male or female. The state has introduced gender-neutral birth certificates. [∎](https://www.smithsonianmag.com/smart-news/california-becomes-first-state-introduce-gender-neutral-birth-certificates-180965343/#g84be8QpMyw34WMu.99){:target="_bank"}
 
-**The internet meme, “I sexually identify as an attack helicopter”** represents a view that dismisses identity liberalism as ridiculous, excessively politically correct, and counterproductive to rational thought. [∎](https://knowyourmeme.com/memes/i-sexually-identify-as-an-attack-helicopter){:target="_bank"}
+**The Internet meme, “I sexually identify as an attack helicopter”** represents a view that dismisses identity liberalism as ridiculous, excessively politically correct, and counterproductive to rational thought. [∎](https://knowyourmeme.com/memes/i-sexually-identify-as-an-attack-helicopter){:target="_bank"}
 
 ### New Forms of Kinship
 
 Kinship today has evolved beyond nuclear-family norms into multilayered and complex structures. People are experimenting with different ways of coupling, having kids, pooling resources, dividing labour, living together, and parting ways that are beyond inherited norms and presumptions. 
 
-**“A cambrian explosion of different relationship patterns”** is evolutionary psychologist Geoffrey Miller’s description of evolving forms of kinship; even the ones that fail could significantly alter monogamy and how it’s exercised. [∎](https://www.youtube.com/watch?v=G5M8r9sLKi0&feature=youtu.be&t=27m){:target="_bank"}
+**“A cambrian explosion of different relationship patterns”** is how evolutionary psychologist Geoffrey Miller describes the evolving forms of kinship; even the ones that fail could significantly alter monogamy and how it’s exercised. [∎](https://www.youtube.com/watch?v=G5M8r9sLKi0&feature=youtu.be&t=27m){:target="_bank"}
 							
 **Fictive kin** is someone not related by blood, marriage, or adoption who is considered to play the role of a family member. This has the potential to become more widespread as the number of solo households in Canada continues to rise. [∎](https://www.theglobeandmail.com/life/fictive-kinship-it-turns-out-you-can-pick-your-family/article7493317/){:target="_bank"}
 	
@@ -83,9 +74,9 @@ Kinship today has evolved beyond nuclear-family norms into multilayered and comp
 
 Ethical non-monogamy and polyamory is seemingly on the rise as a growing movement to create vocabulary, popular media, and visual tools that represent these relationships gain visibility in our everyday life. 
 
-**Humans have been bad at monogamy** according to evidence uncovered by historians and evolutionary biologists. As a species that was once fiercely egalitarian and non-monogamous, humans invented monogamy and marriage for love as a self-imposed system of social construction that only began in the 1700s to enforce gender roles and social order. [∎](https://www.vox.com/2018/5/23/17345762/monogamy-explained-netflix-marriage-sex-love-dating){:target="_bank"}
+**Humans are bad at monogamy**, according to evidence uncovered by historians and evolutionary biologists. As a species that was once fiercely egalitarian and non-monogamous, humans invented monogamy and marriage for love as a self-imposed system of social construction that only began in the 1700s to enforce gender roles and social order. [∎](https://www.vox.com/2018/5/23/17345762/monogamy-explained-netflix-marriage-sex-love-dating){:target="_bank"}
 
-**Canadians think polyamory relationships are on the rise** according to a study conducted by the Canadian Research Institute for Law and the Family in 2016. Over 68% of respondents said that they are currently involved in a polyamorous relationship, and over 80% believed that the number of people who identify as polyamorous, and the number of people who are openly involved in polyamorous relationships are increasing. [∎](https://vanierinstitute.ca/polyamory-in-canada-research-on-an-emerging-family-structure/){:target="_bank"}
+**Canadians think polyamory relationships are on the rise**, according to a 2016 study conducted by the Canadian Research Institute for Law and the Family. Over 68% of respondents said that they are currently involved in a polyamorous relationship, and over 80% believed that the number of people who identify as polyamorous, and the number of people who are openly involved in polyamorous relationships are increasing. [∎](https://vanierinstitute.ca/polyamory-in-canada-research-on-an-emerging-family-structure/){:target="_bank"}
 
 
 **New lexicon around relationships**, including coined terms like “monogamish”, “situationship”, and “satellite lovers”, is providing the vocabulary to destigmatize and normalize more transient, open, and egalitarian models of relationships. Even in polyamorous relationships, ingrained social notions around fidelity in marriages or closed relationship structures are challenged with new terms like “fidelitinormativity”. [∎](https://www.nytimes.com/2011/07/03/magazine/infidelity-will-keep-us-together.html){:target="_bank"}[∎](https://www.facebook.com/multiamory/posts/multiwordery!-%22fidelitinormativity%22-(n-)-the/858646047670424/){:target="_bank"}
@@ -98,15 +89,15 @@ As an antidote to the added complexity of multi-person relationships, the polyam
 
 **The Periodic Table of Polycules** is one of many recent attempts to describe polycules – structural systems of connected non-monogamous relationships – through visualizations and taxonomies. [∎](https://bygollyimpoly.tumblr.com/post/153904530339/forkedprocess-periodic-table-of-the-polycules){:target="_bank"}
 
-The Relationship Anarchy Smorgasboard was developed as a tool for partners to articulate their needs and agree on which needs their relationship addresses. [∎](https://www.reddit.com/r/polyamory/comments/5jebwg/relationship_anarchy_smorgasbord_choose_your/){:target="_bank"}
+**The Relationship Anarchy Smorgasboard** was developed as a tool for partners to articulate their needs and agree on which needs their relationship addresses. [∎](https://www.reddit.com/r/polyamory/comments/5jebwg/relationship_anarchy_smorgasbord_choose_your/){:target="_bank"}
 
 **Relationship contracts** are on the rise as partners take deliberate and considerate steps to find common ground in their romances by articulating their needs and wants in writing. [∎](https://www.nytimes.com/2017/06/23/style/modern-love-to-stay-in-love-sign-on-the-dotted-line-36-questions.html){:target="_bank"}
 
 ### Augmenting Understanding 
 
-An emerging set of digital tools — for improving quality of communication and collaboration; arbitrating decision-making processes; and maintaining records of agreements among multiple people — could change the way we find mutual understanding and reach collective consensus. 
+An emerging set of digital tools – for improving quality of communication and collaboration; arbitrating decision-making processes; and maintaining records of agreements among multiple people – could change the way we find mutual understanding and reach collective consensus. 
 
-**Crystal Knows**, “the app that tells you anyone’s personality,” uses a combination of traditional assessments, social media analysis, and text analysis to provide accurate personality profiles, explain relationship dynamics, offer advice that helps teams communicate more effectively. [∎](https://www.crystalknows.com/){:target="_bank"}
+**Crystal Knows**, “the app that tells you anyone’s personality,” uses a combination of traditional assessments, social media analysis, and text analysis to provide accurate personality profiles, explain relationship dynamics, and offer advice that helps teams communicate more effectively. [∎](https://www.crystalknows.com/){:target="_bank"}
 
 **Pol.is** is a data visualization tool that helps organizations engage in conversation and track collective beliefs by spatially representing people’s positions on issues. [∎](https://pol.is/home){:target="_bank"}
 
