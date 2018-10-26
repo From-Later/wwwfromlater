@@ -5,7 +5,7 @@ logo: "/assets/images/ephemera-from-later.svg"
 tagitems:
     - tag:
         name: "SCENARIO"
-        value: "Compersia is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
+        value: "<em>Compersia</em> is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
     - tag:
         name: "FILE UNDER"
         value: "Research-based, near-term, speculative futures; design fiction"
@@ -15,7 +15,7 @@ tagitems:
     - tag:
         name: "RESEARCH"
         value: "M. Siu, R. Bolton, U. Vira, A. Alikpala"
-introtext: "Compersia is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about the future scenario and the signals of change that informed it."
+introtext: "<em>Compersia</em> is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about the future scenario and the signals of change that informed it."
 ---
 
 * * *
