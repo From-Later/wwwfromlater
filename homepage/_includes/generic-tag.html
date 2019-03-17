@@ -1,9 +1,0 @@
-{% if page.tagitems %}
-    {% for item in page.tagitems %}
-        {% if item.tag %}
-        <code>{{ item.tag.name }}:</code> {{item.tag.value}}<br>
-        {% elsif item.footer %}
-        <code><em>{{item.footer.value}}</em></code>
-        {% endif %}
-    {% endfor %}
-{% endif %}
