@@ -27,7 +27,7 @@ encoding: utf-8
 
 google_analytics: UA-110955218-1
 collections:
-  songs:
+  views:
     output: true
 
 # Exclude from processing.

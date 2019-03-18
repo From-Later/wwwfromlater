@@ -2,6 +2,8 @@
 title: "Compersia"
 layout: ephemera
 logo: "/assets/images/ephemera-from-later.svg"
+number: "01"
+cover: "/assets/images/modest-proposal-1.png"
 tagitems:
     - tag:
         name: "SCENARIO"
