@@ -1,0 +1,30 @@
+---
+title: "Recordings From Later"
+layout: default
+series: "Research-based, speculative songs"
+concept: "Songs written as though created in a further future environment;  intended to provoke critical dialogue about where we are headed."
+format: "audio recording; scenario; lyrics; research"
+tag_footer: "FROM LATER IS A FORESIGHT STUDIO."
+---
+
+<h2>[ Recordings ]</h2>
+{% for song in site.songs %}
+<div class="container">
+    <div class="song-title num{{ song.number }}" onclick="location.href='{{song.url | relative_url }}';" > {{ song.title }} </div>
+    <img src="{{ song.cover | relative_url }}" onclick="location.href='{{song.url | relative_url }}';" onmouseover="this.src='{{ song.cover_swap | relative_url }}';" onmouseout="this.src='{{ song.cover | relative_url }}'">
+</div>
+{% endfor %}
+<br>
+<br>
+<div id="accordion">
+    <h2>[ Support us ]</h2>
+    <p>To continue to produce Recordings From Later, we’ll need a reliable source of funding to cover our labour and production costs. If you would like to hear more Recordings From Later, you can sponsor us directly through <a href="https://www.patreon.com/fromlater">Patreon</a> or donate cryptocurrency <a href="https://blockchain.info/payment_request?address=12Vjw3dY7wa9YRuysmby4ijbUm2iEWkpWo&message=Recordings+From+Later">here</a>.
+    </p>
+    <h2>[ About ]</h2>
+    <p>Recordings From Later presents a series of research-based, speculative songs—cultural objects from the future. Songs are written as though created in a future time and place. They function metonymically, standing in for a world.
+    </p>
+    <p>The songs are intended to encourage critical thinking about where we are headed. Audiences may consider, what are the conditions—social, technological, environmental, economical, political—of this world? What would have to happen for a song such as this to be made? Is this a world I would like to inhabit? Does it suit me, my family, my business, my community? What are some preferable alternatives?
+    </p>
+    <p>Songs are the product of collaboration between futures researchers and musicians. Informed by signals of change that we observe in the present, we consider how emerging trends and transformational drivers might shape the future. A world is constructed. A scenario fiction is written. And we imagine, write, and record a song from later. 
+    </p>
+</div>
