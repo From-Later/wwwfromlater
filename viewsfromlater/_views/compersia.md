@@ -2,9 +2,7 @@
 title: "Compersia"
 layout: views
 permalink: "/compersia"
-logo: "/assets/images/ephemera-from-later.svg"
-number: "01"
-cover: "/assets/images/modest-proposal-1.png"
+logo: "/assets/images/views-from-later.svg"
 tagitems:
     - tag:
         name: "SCENARIO"
@@ -21,8 +19,6 @@ tagitems:
 introtext: "<em>Compersia</em> is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about the future scenario and the signals of change that informed it."
 ---
 
-* * *
-
 ## [ Scenario ]
 
 In the near future Compersia scenario, a confluence of socio-economic and technological factors are changing the nature of adulthood. People expect their lives to be more transient—dynamic and fluid rather than stable and consistent. The initialism T.D.F.P. (Transient Dynamic Fluid and Pluralistic) emerges in common parlance to describe their lifestyle. Milestones like marriage, parenthood, and home-ownership are delayed due to economic necessity or altogether discarded by a values hierarchy that prioritizes gratification over tradition.
@@ -38,6 +34,47 @@ The critics were silenced in 2023, when the long period of tension came to a hea
 Polyamory revealed itself as a platform for innovation with real economic value. It sparked the foundings of new varieties of membership-based wellness hubs. New service professions, holistic matchmakers and lifestyle transitionists, facilitated people’s absorption into polycules. And at the intersection of ethics and design, arose a wave of tools for expectation arbitration, dispute resolution, and egalitarian living.
 
 The new Culture of Compersion produced the most significant revolution in communication since networked media; what the Information Age did for scale of communication, Compersia did for quality of communication. 
+
+![](/assets/images/compersia_naz_r_large.jpg)
+*art by Naz Rahbar* [∎](https://www.instagram.com/naz.rahbar/)
+
+## [ Artifacts ] 
+
+The following artifacts from later provide a glimpse into the speculative future world, Compersia. 
+
+Artifacts from later focus on particular details of a scenario to represent the greater state of the future world. They are designed as conversation starters and prompts for you to imagine what it might be like to experience life in a possible future environment. 
+
+### [ Recordings ] _from later_
+
+["All of You"](https://recordings.fromlater.com/allofyou) is a love song from Compersia. 
+
+Listen [here](https://recordings.fromlater.com/allofyou) or on Spotify, Soundcloud, Apple Music, Amazon, Google Play and other streaming services.
+
+### [ Ephemera ] _from later_
+
+The following artifacts from later present ephemeral traces of the future world, Compersia. 
+
+**The Modest Proposal**
+
+The Modest Proposal is a complex relationship design tool. It enables multi-partner relationship formation through the smart synthesis of personal preferences and interactive agreement-making. Aspects of The Modest Proposal explore how relationship agreement frameworks within the polyamory community today, such as The Relationship Bill of Rights and The Relationship Anarchy Smorgasbord, may evolve in a near future world where usage of such frameworks are amplified. The images below capture moments within the interactive experience of negotiating a relationship using the tool.
+
+![](/assets/images/ModestProposal-1.jpg)
+
+![](/assets/images/ModestProposal-2.jpg)
+
+![](/assets/images/ModestProposal-3.jpg)
+
+![](/assets/images/ModestProposal-4.jpg)
+
+![](/assets/images/ModestProposal-5.jpg)
+
+**Compersia: _The Game_**
+
+The Compersia card game is a group activity/workshop where participants take on the roles of specific characters and tasked to design a poly relationship that fulfills all of their wants and needs.  
+
+![](/assets/images/compersia_personacards-4.jpg)
+
+![](/assets/images/compersia_polyculedesign.jpg)
 
 ## [ Research ]
 
