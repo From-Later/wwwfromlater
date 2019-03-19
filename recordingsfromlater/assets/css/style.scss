@@ -58,19 +58,35 @@ audio {
 
 #fl-tag {
     color: black;
-    background-color: #f4f4f4;
+    background-color: #fff;
     border: dashed;
-    border-width: thin;
-    border-color: #727272;
+    border-width: 1.5px;
+    border-color: #000000;
     font-size: 0.8em;
     margin-top: 10px;
 }
 
-#innertag {
-    padding: 20px;
-    padding-bottom: 5px;
+input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    background-color: #FFFF00;
+    min-height: 2em;
+    border: 0;
 }
 
+input[type=email] {
+    font-family: 'Courier', sans-serif;
+    padding-left: 5px;
+    border-width: 0;
+    min-width: 65%;
+    min-height: 2em;
+}
+input[type=email]:focus {
+    font-family: 'Courier', sans-serif;
+    height: 1.5 em;
+    outline: 1px solid #000000;
+}
 
 footer {
     bottom: 10px;
@@ -86,21 +102,23 @@ header {
     padding-bottom: 20px;
 }
 
+#innertag {
+    position: relative;
+    padding: 12px;
+    padding-bottom: 5px;
+    color: #3d3d3d;
+}
 
-
-.item-tag {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 20px;
-    border: dashed;
-    border-width: thin;
-    border-color: #727272;
-    .innertag {
-        padding: 10px 10px 10px;
-        background-color: white;
-        font-size: 14px;
-        line-height: 1.5;
-    }
+.tag-number {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    font-family: 'Courier';
+    color: black;
+    font-size: 3em;
+}
+#innertag > code {
+    font-family: 'Roboto', sans-serif;
 }
 
 .song-title {
@@ -108,7 +126,6 @@ header {
     width: 220px;
     line-height: 1.5;
 }
-
 
 .num02 {
     font-size: 50px;
@@ -123,7 +140,6 @@ header {
     padding: 0 0 0;
     
 }
-
 
 .container {
     padding: 0;
