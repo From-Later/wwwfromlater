@@ -8,7 +8,7 @@
             <h1 style="font-size:52px">{{ page.title }}</h1>
             <img id="main-logo" src="{{ page.logo | relative_url }}">
         {% else %}
-        <img id="main-logo" src="{{ '/assets/images/recordings-from-later.svg' | relative_url }}" onclick="location.href='/songs/';">
+        <img id="main-logo" src="{{ '/assets/images/recordings-from-later.svg' | relative_url }}" onclick="location.href='/';">
         {% endif %}
         {% if page.source %}
 		<audio controls preload="auto" onplay="ga('send', 'event', 'Audio', 'play', '{{page.title}}');">
@@ -29,7 +29,7 @@
                         {% endif %}
                     </div>
                     <div class="tagbottom">
-	                <img src="{{ '/assets/images/fl-logo.svg' | relatuve_url }}" class ="fllogo" onclick="location.href='/';">
+	                <img src="{{ '/assets/images/fl-logo.svg' | relatuve_url }}" class ="fllogo" onclick="location.href='https://www.fromlater.com';">
                     </div>
 		</div>
 

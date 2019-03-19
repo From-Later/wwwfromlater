@@ -1,5 +1,6 @@
 ---
 title: Lonely Arcade
+permalink: "/lonelyarcade"
 artist: "From Later"
 featuring: "élah"
 composition: "R. Bolton, G. Whelehan, R. Hale"

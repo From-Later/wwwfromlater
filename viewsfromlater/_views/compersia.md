@@ -1,6 +1,7 @@
 ---
 title: "Compersia"
 layout: views
+permalink: "/compersia"
 logo: "/assets/images/ephemera-from-later.svg"
 number: "01"
 cover: "/assets/images/modest-proposal-1.png"
