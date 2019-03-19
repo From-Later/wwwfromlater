@@ -1,6 +1,6 @@
 ---
 title: "Compersia"
-layout: ephemera
+layout: views
 logo: "/assets/images/ephemera-from-later.svg"
 number: "01"
 cover: "/assets/images/modest-proposal-1.png"
