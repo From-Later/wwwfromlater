@@ -46,9 +46,9 @@ Artifacts from later focus on particular details of a scenario to represent the 
 
 ### [ Recordings ] _from later_
 
-["All of You"](https://recordings.fromlater.com/allofyou) is a love song from Compersia. 
+["All of You"](https://recordings.fromlater.com/allofyou.html) is a love song from Compersia. 
 
-Listen [here](https://recordings.fromlater.com/allofyou) or on Spotify, Soundcloud, Apple Music, Amazon, Google Play and other streaming services.
+Listen [here](https://recordings.fromlater.com/allofyou.html) or on Spotify, Soundcloud, Apple Music, Amazon, Google Play and other streaming services.
 
 ### [ Ephemera ] _from later_
 

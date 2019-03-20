@@ -25,7 +25,8 @@ twitter_username: since21xx
 markdown: kramdown
 encoding: utf-8
 
-# google_analytics: UA-110955218-1
+google_analytics: UA-110955218-1
+
 collections:
   songs:
     output: true
