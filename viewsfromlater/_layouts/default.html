@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
     {% include head.html %}
-    <body>
+    <body class="grey-bg">
 	<div class="wrapper">
 	    <header>
         {% if page.logo %}
             <h1 style="font-size:52px">{{ page.title }}</h1>
             <img id="main-logo" src="{{ page.logo | relative_url }}">
         {% else %}
-        <img id="main-logo" src="{{ '/assets/images/ephemera-from-later.svg' | relative_url }}" onclick="location.href='/';">
+        <img id="main-logo" src="{{ '/assets/images/views-from-later.svg' | relative_url }}" onclick="location.href='/';">
         {% endif %}
 		<br>
 		<div id="fl-tag">
@@ -25,7 +25,7 @@
                 <div id="mc_embed_signup">
                     <form action="https://fromlater.us17.list-manage.com/subscribe/post?u=b1b32d764bc713886074f83b3&amp;id=2895e0feb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
-	                    <div>Get updates <em>from later</em> in your inbox.</div>
+	                    <div>Get views <em>from later</em> in your inbox.</div>
                             <div class="mc-field-group">
 	                        <!-- <label for="mce-EMAIL">e-mail </label> -->
 	                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="e-mail">

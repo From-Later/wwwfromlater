@@ -1,6 +1,6 @@
 ---
 title: Lonely Arcade
-permalink: "/lonelyarcade"
+permalink: "/lonelyarcade.html"
 artist: "From Later"
 featuring: "élah"
 composition: "R. Bolton, G. Whelehan, R. Hale"
@@ -14,8 +14,6 @@ layout: song
 cover: /assets/images/song-01.png
 cover_swap: /assets/images/lonelyarcadejpg.jpg
 ---
-
-* * *
 
 ## [ Lyrics ]
 ```

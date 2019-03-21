@@ -1,3 +1,7 @@
+{% if page.number %}
+<div class="tag-number"> {{page.number}} </div>
+{% endif %}
+
 {% if page.title %}
 <code>SONG:</code> {{page.title}}<br>
 {% endif %}
@@ -33,11 +37,6 @@
 {% endif %}
 
 {% if page.isrc %}
-<code>ISRC:</code> <code> <strong> {{page.isrc}} </strong> </code> <br>
-{% endif %}
-
-{% if page.number %}
-<code>ISSUE NUMBER:</code> {{page.number}} </code> <br>
-
+<code>ISRC:</code> {{page.isrc}} <br>
 {% endif %}
 
