@@ -11,6 +11,7 @@ source: /assets/mp3/lonely_arcade.mp3
 isrc: "QM-EU3-17-25160"
 number: "01"
 layout: song
+year: 2018
 cover: /assets/images/song-01.png
 cover_swap: /assets/images/lonelyarcadejpg.jpg
 ---
@@ -52,14 +53,12 @@ and our low self esteems.
 
 At closing time, who are you? Who are you?
 We’re paralyzed. Who are you? What will you do? Who are you?
-
-
 ```
 ## [ Scenario ]
 
 In the Lonely Arcade scenario, the ultimate aim of engineering, to lighten the load of labour, has been so successful that few important jobs are left for humans. The Great Displacement begins with repetitive task-oriented manual work and desk jobs, but soon spreads to pilots, professional drivers, lawyers, and teachers. Eventually the roles of doctors and dentists, salespeople, makeup artists, plumbers, designers and engineers are all supplanted by technology. Many of the global behemoth corporations employ nobody, not even a CEO. 
 
-Even the world’s wickedest problems—like social injustice, climate change, healthcare, and food insecurity—are better addressed by artificial intelligence than by humans. Indeed, it is an AI that finally devises a scheme for a fair and universal guaranteed income to be paid out via blockchain technologies. The Leisure Decree, legislated by a network of well-meaning, intelligent software agents, rules that no person should work more than one day a week, enough to take care of the odds and ends—mostly machine maintenance and a few menial tasks that humans are still better at. Tens of thousands of years of fulltime drudgery come to an end. 
+Even the world’s wickedest problems — like social injustice, climate change, healthcare, and food insecurity — are better addressed by artificial intelligence than by humans. Indeed, it is an AI that finally devises a scheme for a fair and universal guaranteed income to be paid out via blockchain technologies. The Leisure Decree, legislated by a network of well-meaning, intelligent software agents, rules that no person should work more than one day a week, enough to take care of the odds and ends—mostly machine maintenance and a few menial tasks that humans are still better at. Tens of thousands of years of fulltime drudgery come to an end. 
 
 For the moment, it is an idyllic era of bountiful splendour, satisfaction, and harmony. Everyone may have and do what they want, when they want. The only currency of any consequence is reputation; and much time and energy is spent trying to build celebrity status and increase followings. But that gets old rather quickly. Without meaningful work, people struggle to define unique identities. With no apparent reason to develop a talent, practice creativity, engage their intellectual curiosity, or achieve much of anything, many people are left feeling purposeless, unmotivated, unfulfilled and alone. A working class hero, it turns out, is something to be.
 
@@ -153,3 +152,9 @@ American economist Robert Gordon says **a rising robotics revolution** should bo
 
 **Camp Ka Champ** is a Western Union-sponsored singing contest for Dubai’s labour community.  Migrant workers in over 70 Dubai labour camps sing Bollywood songs in competition for cash and prizes. “Champ of the Camp,” a documentary about the contest, tells the story of workers who sing to escape the realities of a life of toil away from family and home. 
 [∎](https://www.youtube.com/watch?v=nX0SBfmaPEY){:target="_bank"}
+
+## [ Performances ]
+
+“Lonely Arcade” was premiered at Toronto’s Nuit Blanche on October 3, 2015.
+
+It was also performed at the North American Basic Income Guarantee Congress at McMaster University on May 26, 2018.

@@ -3,10 +3,11 @@ title: "Compersia"
 layout: views
 permalink: "/compersia"
 logo: "/assets/images/views-from-later.svg"
+year: 2019
 tagitems:
     - tag:
         name: "SCENARIO"
-        value: "<em>Compersia</em> is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
+        value: "Compersia is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
     - tag:
         name: "FILE UNDER"
         value: "Research-based, near-term, speculative futures; design fiction"
@@ -16,12 +17,12 @@ tagitems:
     - tag:
         name: "RESEARCH"
         value: "M. Siu, R. Bolton, U. Vira, A. Alikpala"
-introtext: "<em>Compersia</em> is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about the future scenario and the signals of change that informed it."
+introtext: "Compersia is a speculative future scenario. Based on signals of change observed in the world today, it is designed to provoke critical dialogue and inspire new thinking. Click the headings below to learn more about Compersia and the signals of change that informed it."
 ---
 
 ## [ Scenario ]
 
-In the near future Compersia scenario, a confluence of socio-economic and technological factors are changing the nature of adulthood. People expect their lives to be more transient—dynamic and fluid rather than stable and consistent. The initialism T.D.F.P. (Transient Dynamic Fluid and Pluralistic) emerges in common parlance to describe their lifestyle. Milestones like marriage, parenthood, and home-ownership are delayed due to economic necessity or altogether discarded by a values hierarchy that prioritizes gratification over tradition.
+In the near future Compersia scenario, a confluence of socio-economic and technological factors are changing the nature of adulthood. People expect their lives to be more transient — dynamic and fluid rather than stable and consistent. The initialism T.D.F.P. (Transient Dynamic Fluid and Pluralistic) emerges in common parlance to describe their lifestyle. Milestones like marriage, parenthood, and home-ownership are delayed due to economic necessity or altogether discarded by a values hierarchy that prioritizes gratification over tradition.
 
 A generation disillusioned with the institution of marriage views monogamy with realism and handles relationships with pragmatism. Having grown up in fragmented homes, their baggage equips them to seriously acknowledge the obvious: that even “committed life-partner relationships” are temporary. And, as products of the Social Internet, they’re accustomed to abundance of choice, and expect the same kind of optionality in matters of love. 
 
@@ -37,44 +38,6 @@ The new Culture of Compersion produced the most significant revolution in commun
 
 ![](/assets/images/compersia_naz_r_large.jpg)
 *art by Naz Rahbar* [∎](https://www.instagram.com/naz.rahbar/)
-
-## [ Artifacts ] 
-
-The following artifacts from later provide a glimpse into the speculative future world, Compersia. 
-
-Artifacts from later focus on particular details of a scenario to represent the greater state of the future world. They are designed as conversation starters and prompts for you to imagine what it might be like to experience life in a possible future environment. 
-
-### [ Recordings ] _from later_
-
-["All of You"](https://recordings.fromlater.com/allofyou.html) is a love song from Compersia. 
-
-Listen [here](https://recordings.fromlater.com/allofyou.html) or on Spotify, Soundcloud, Apple Music, Amazon, Google Play and other streaming services.
-
-### [ Ephemera ] _from later_
-
-The following artifacts from later present ephemeral traces of the future world, Compersia. 
-
-**The Modest Proposal**
-
-The Modest Proposal is a complex relationship design tool. It enables multi-partner relationship formation through the smart synthesis of personal preferences and interactive agreement-making. Aspects of The Modest Proposal explore how relationship agreement frameworks within the polyamory community today, such as The Relationship Bill of Rights and The Relationship Anarchy Smorgasbord, may evolve in a near future world where usage of such frameworks are amplified. The images below capture moments within the interactive experience of negotiating a relationship using the tool.
-
-![](/assets/images/ModestProposal-1.jpg)
-
-![](/assets/images/ModestProposal-2.jpg)
-
-![](/assets/images/ModestProposal-3.jpg)
-
-![](/assets/images/ModestProposal-4.jpg)
-
-![](/assets/images/ModestProposal-5.jpg)
-
-**Compersia: _The Game_**
-
-The Compersia card game is a group activity/workshop where participants take on the roles of specific characters and tasked to design a poly relationship that fulfills all of their wants and needs.  
-
-![](/assets/images/compersia_personacards-4.jpg)
-
-![](/assets/images/compersia_polyculedesign.jpg)
 
 ## [ Research ]
 
@@ -114,6 +77,8 @@ Kinship today has evolved beyond nuclear-family norms into multilayered and comp
 
 Ethical non-monogamy and polyamory is seemingly on the rise as a growing movement to create vocabulary, popular media, and visual tools that represent these relationships gain visibility in our everyday life. 
 
+**Compersion** is a word used within the polyamory community that refers to the feeling of joy associated with seeing a loved one love another; it’s a term contrasted with jealousy. [∎](https://en.wiktionary.org/wiki/compersion){:target="_bank"}
+
 **Humans are bad at monogamy**, according to evidence uncovered by historians and evolutionary biologists. As a species that was once fiercely egalitarian and non-monogamous, humans invented monogamy and marriage for love as a self-imposed system of social construction that only began in the 1700s to enforce gender roles and social order. [∎](https://www.vox.com/2018/5/23/17345762/monogamy-explained-netflix-marriage-sex-love-dating){:target="_bank"}
 
 **Canadians think polyamory relationships are on the rise**, according to a 2016 study conducted by the Canadian Research Institute for Law and the Family. Over 68% of respondents said that they are currently involved in a polyamorous relationship, and over 80% believed that the number of people who identify as polyamorous, and the number of people who are openly involved in polyamorous relationships are increasing. [∎](https://vanierinstitute.ca/polyamory-in-canada-research-on-an-emerging-family-structure/){:target="_bank"}
@@ -131,7 +96,9 @@ As an antidote to the added complexity of multi-person relationships, the polyam
 
 **The Relationship Anarchy Smorgasboard** was developed as a tool for partners to articulate their needs and agree on which needs their relationship addresses. [∎](https://www.reddit.com/r/polyamory/comments/5jebwg/relationship_anarchy_smorgasbord_choose_your/){:target="_bank"}
 
-**Relationship contracts** are on the rise as partners take deliberate and considerate steps to find common ground in their romances by articulating their needs and wants in writing. [∎](https://www.nytimes.com/2017/06/23/style/modern-love-to-stay-in-love-sign-on-the-dotted-line-36-questions.html){:target="_bank"}
+**The Relationship Bill of Rights** is first captured in the ethics chapter of More Than Two by Eve Rickert and Franklin Veaux. It enforces the idea that every person should be able to have a voice in their relationships, no matter the forms these relationships may take. It also promotes empowerment through the notion of building resilience within relationships, as opposed to disempowerment that stems from rigid and non-negotiable rules of control. [∎](https://www.morethantwo.com/relationshipbillofrights.html){:target="_bank"}[∎](https://www.morethantwo.com/blog/2014/10/relationship-bor){:target="_bank"}
+
+**Relationship contracts** are on the rise as partners take deliberate and considerate steps to find common ground in their romances by articulating their needs and wants in writing. [∎](https://www.nytimes.com/2017/06/23/style/modern-love-to-stay-in-love-sign-on-the-dotted-line-36-questions.html){:target="_bank"}[∎](https://www.facebook.com/ComedyCentral/videos/relationship-contract-broad-city/419528692131026/){:target="_bank"} 
 
 ### Augmenting Understanding 
 
@@ -144,3 +111,39 @@ An emerging set of digital tools – for improving quality of communication and 
 **Loomio** is a suite of digital decision tools designed to surface misunderstandings, resolve issues, highlight agreements, and maintain collective cognizance. [∎](https://www.loomio.org/){:target="_bank"}
 
 **Smart Contracts**, or computerized transaction protocols, are self-executing contracts, where the terms of the agreement are written into lines of code. [∎](http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html){:target="_bank"}
+
+## [ Artifacts ] 
+
+The following artifacts from later provide a glimpse into the speculative future world, Compersia. 
+
+Artifacts from later focus on particular details of a scenario to represent the greater state of the future world. They are designed as conversation starters and prompts for you to imagine what it might be like to experience life in a possible future environment. 
+
+### **1. [ Recordings ]** _from later_
+
+**1.1 All of You**
+
+["All of You"](https://recordings.fromlater.com/allofyou.html)is a love song from Compersia. Listen [here](https://recordings.fromlater.com/allofyou.html) or on Spotify, Soundcloud, Apple Music, Amazon, Google Play and other streaming services.
+
+### **2. [ Ephemera ]** _from later_
+
+The following artifacts from later present ephemeral traces of the future world, Compersia. 
+
+**2.1 _The Modest Proposal_**
+
+_The Modest Proposal_ is a complex relationship design tool. It enables multi-partner relationship formation through the smart synthesis of personal preferences and interactive agreement-making. Aspects of The Modest Proposal explore how relationship agreement frameworks within the polyamory community today, such as The Relationship Bill of Rights and The Relationship Anarchy Smorgasbord, may evolve in a near future world where usage of such frameworks are amplified. The images below capture moments within the interactive experience of negotiating a relationship using the tool.
+
+![](/assets/images/ModestProposal-3.jpg)
+
+![](/assets/images/ModestProposal-4.jpg)
+
+![](/assets/images/ModestProposal-5.jpg)
+
+**2.2 Compersia: _The Game_**
+
+The Compersia card game is a workshop activity exploring communication modes and ethics that strengthen ambiguous and uncomfortable relationships. Players embody the roles of specific characters and are tasked to design a poly-relationship seeking to fulfill each of their wants and needs. By collaboratively and iteratively “prototyping” possible relationship structures and agreements, players must find ways to advocate for, as well as empathize with, the different dimensions of the relationships that they each value. This game of love and life allows players to develop a shared comfort with ambiguity through collective resilience empowered by the question, “Is everyone okay with this?”
+
+The game was first workshopped at the SXSW x Mercedes Benz – Me Convention on September 5, 2018 in Stockholm, Sweden.
+
+![](/assets/images/compersia_personacards-4.jpg)
+
+![](/assets/images/compersia_polyculedesign.jpg)

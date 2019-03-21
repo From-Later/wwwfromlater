@@ -3,7 +3,7 @@ title: All of You
 permalink: "/allofyou.html"
 artist: "From Later"
 featuring: "Zaki Ibrahim"
-composition: Z. Ibrahim, A. Johnson, W. Johnson, R, Bolton, M. Siu
+composition: Z. Ibrahim, A. Johnson, W. Johnson, R. Bolton, M. Siu
 series: "Research-based, speculative songs"
 scenario: "<a href='https://views.fromlater.com/compersia.html'>Compersia</a> is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
 research: "M. Siu, R. Bolton, U. Vira, A. Alikpala"
@@ -14,8 +14,8 @@ number: "02"
 layout: song
 cover: /assets/images/song-02.png
 cover_swap: /assets/images/all_of_you_naz_r_large.jpg
+year: 2019
 ---
-
 
 ## [ Scenario ]
 “All of You” is love song written from the perspective of a lover in the near-future scenario, [Compersia](https://views.fromlater.com/compersia.html), where polyamorous relationships are as common and accepted as monogamous ones.

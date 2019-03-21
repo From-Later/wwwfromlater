@@ -42,6 +42,10 @@ audio {
 .introtext {
     color: black;
     font-weight: normal;
+    border-bottom-color: grey;
+    border-bottom-width: thin;
+    border-bottom-style:solid;
+    padding-bottom: 15px;
 }
 
 #accordion p, #accordion ul, #accordion h3, #accordion .highlighter-rouge {
@@ -54,6 +58,23 @@ audio {
 
 .active {
     background-color: #FFFF00;
+}
+
+.right-side-copyright {
+    margin-top: 160px;
+    padding-top: 15px;
+    border-top-color: lightgray;
+    border-top-width: thin;
+    border-top-style:solid;
+    font-size: 0.6em;
+    .copyright-left{
+        max-width:30%; 
+        float:left;
+    }
+    .copyright-right{
+        max-width:30%; 
+        float:right;
+    }
 }
 
 #fl-tag {
