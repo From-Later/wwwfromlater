@@ -63,7 +63,7 @@ Even the world’s wickedest problems — like social injustice, climate change,
 For the moment, it is an idyllic era of bountiful splendour, satisfaction, and harmony. Everyone may have and do what they want, when they want. The only currency of any consequence is reputation; and much time and energy is spent trying to build celebrity status and increase followings. But that gets old rather quickly. Without meaningful work, people struggle to define unique identities. With no apparent reason to develop a talent, practice creativity, engage their intellectual curiosity, or achieve much of anything, many people are left feeling purposeless, unmotivated, unfulfilled and alone. A working class hero, it turns out, is something to be.
 
 ![](/assets/images/lonelyarcade.png)
-*art by Jess Audrey Lynn* [∎](https://www.instagram.com/jessaudreylynn/)
+*art by Jess Audrey Lynn* [∎](https://www.instagram.com/jessaudreylynn/){:target="_bank"}
 
 ## [ Research ]
 

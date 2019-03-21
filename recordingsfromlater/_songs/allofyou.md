@@ -5,7 +5,7 @@ artist: "From Later"
 featuring: "Zaki Ibrahim"
 composition: Z. Ibrahim, A. Johnson, W. Johnson, R. Bolton, M. Siu
 series: "Research-based, speculative songs"
-scenario: "<a href='https://views.fromlater.com/compersia.html'>Compersia</a> is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
+scenario: "<a href='https://views.fromlater.com/compersia.html' target='_blank'>Compersia</a> is a mass-polyamory scenario characterized by multi-layered complex structures of transient kinship. Communication and ethics innovations empower people to negotiate quality relationships where partners find joy in their partners’ joy."
 research: "M. Siu, R. Bolton, U. Vira, A. Alikpala"
 source: /assets/mp3/all_of_you.mp3
 art: N. Rahbar
@@ -18,14 +18,14 @@ year: 2019
 ---
 
 ## [ Scenario ]
-“All of You” is love song written from the perspective of a lover in the near-future scenario, [Compersia](https://views.fromlater.com/compersia.html), where polyamorous relationships are as common and accepted as monogamous ones.
+“All of You” is love song written from the perspective of a lover in the near-future scenario, [Compersia](https://views.fromlater.com/compersia.html){:target="_bank"}, where polyamorous relationships are as common and accepted as monogamous ones.
 
 It tells the story of lovers looking to transition from an open relationship to something more structured – a four-person polycule, one that they will design specially to satisfy their collective needs.
 
 In Compersia, new communication and ethics innovations empower people to design quality relationships based on the principle of compersion, where partners find joy in their partners’ joy (intimately loving another person).
 
 ![](/assets/images/all_of_you_naz_r_large.jpg)
-*art by Naz Rahbar* [∎](https://www.instagram.com/naz.rahbar/)
+*art by Naz Rahbar* [∎](https://www.instagram.com/naz.rahbar/){:target="_bank"}
 
 ## [ Lyrics ]
 
