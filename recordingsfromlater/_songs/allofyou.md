@@ -18,7 +18,7 @@ year: 2019
 ---
 
 ## [ Scenario ]
-“All of You” is love song written from the perspective of a lover in the near-future scenario, [Compersia](https://views.fromlater.com/compersia.html){:target="_bank"}, where polyamorous relationships are as common and accepted as monogamous ones.
+“All of You” is a love song written from the perspective of a lover in the near-future scenario, [Compersia](https://views.fromlater.com/compersia.html){:target="_bank"}, where polyamorous relationships are as common and accepted as monogamous ones.
 
 It tells the story of lovers looking to transition from an open relationship to something more structured – a four-person polycule, one that they will design specially to satisfy their collective needs.
 
@@ -42,7 +42,7 @@ We made such a beautiful design.
 
 ≑
 
-Close your eyes and breath in.
+Close your eyes and breathe in.
 Take an enormous leap of faith.
 
 Formalizing our freedom,
