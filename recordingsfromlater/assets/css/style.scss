@@ -87,6 +87,15 @@ audio {
     margin-top: 10px;
 }
 
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
+}
+
 input[type=submit] {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
