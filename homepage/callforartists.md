@@ -16,7 +16,8 @@ CALL FOR ARTIST PROPOSALS
 *indicating possible futures*  
 {: style="text-align: center;"}
 
-**DEADLINE:** October 31, 2019  
+~~**DEADLINE:** October 31, 2019~~  
+**EXTENDED TO:** November 7, 2019  
 [APPLY HERE](https://forms.gle/6cWpfrMFvYJrgYLA9)
 {: style="text-align: center;"}
 
