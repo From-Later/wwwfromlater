@@ -5,8 +5,7 @@ layout: default
 <div class="main-menu-bar">
     <div class="main-menu">
         <div class="menu-item item-1 selected" onclick="togglePanel(this)"> projects </div>
-        <div class="menu-item item-2" onclick="togglePanel(this)"> service </div>
-        <div class="menu-item item-3" onclick="togglePanel(this)"> contact </div>
+        <div class="menu-item item-2" onclick="togglePanel(this)"> contact </div>
     </div>
 </div>
 <br>
@@ -40,7 +39,7 @@ layout: default
             <em>Perspectives for growth</em><br>
             <code>Toronto ON, Canada</code>
         </p>
-        
+
         <p>
             <code>August 2019</code><br>
             <strong>AI in the Enterprise</strong><br>
@@ -195,56 +194,8 @@ layout: default
             <code><a href="https://www.lonelyarcade.com">www.lonelyarcade.com</a></code>
         </p>
     </div>
+ 
     <div class="panel-item" id="panel-2" style="display:none;">
-        <h2>[ Work ]</h2>
-        <p>
-            We drive growth and build resilience. Employing the tools and methods from design thinking and strategic
-            foresight, we empower decision-makers to navigate uncertainty and capitalize on change.
-        </p>
-        <p>
-            Our tools and materials augment your organization with new levels of sensory capability, agility, and
-            coordination. By accelerating a shared understanding of what is happening in the present, we equip
-            leadership teams to make decisions and plans for the future with greater speed and certainty.
-        </p>
-        <p>
-            While our strategic foresight practices inherently monitor change, identify threats, prevent surprise,
-            and minimize risk, our projects are designed to help you determine where to allocate capital and human
-            capital in pursuit of new revenue streams and increased profitability.
-        </p>
-        <h2>[ Process ]</h2>
-        <p>
-            <em>Radar</em>—surveying the extreme present, identifying signals of change that could shape the future
-        </p>
-        <p>
-            <em>Studio</em>—drafting the futures, imagining possibilities and provoking new thinking
-        </p>
-        <p>
-            <em>Strategy</em>—determining strategic pathways that hold up across a range of possible futures
-        </p>
-        <h2>[ Offerings ]</h2>
-        <strong>Strategic Foresight for Long-Term Growth & Resilience</strong><br>
-        <p>
-            We apply the tools and methods of strategic foresight to help your organization navigate uncertainty and
-            capitalize on change. Our continuous scanning practice extends the reaches of your strategic radar and
-            jumpstarts our process of determining new opportunities for innovation, growth, transformation, and
-            value creation.
-        </p>
-        <strong>Strategic Foresight Training and Capability Building</strong><br>
-        <p>
-            We tailor our proprietary foresight curriculum to the needs of your organization. Our customized
-            training programs build foresight capacity and foster a forward-looking culture relevant to your
-            business. Over a series of sessions, participants learn the core foundations of strategic foresight
-            through the hands-on experience of applying its tools and methods to their own roles and strategic
-            objectives.
-        </p>
-        <strong>Strategic Foresight for Product, Service, and Brand Innovation</strong><br>
-        <p>
-            We develop strategies that are empathetic to human needs, economically feasible, sensitive to the
-            cultural and political climate, while being operationally viable. Working closely with stakeholders and
-            experts, we prototype and develop concepts that create long-term economic value and differentiation.
-        </p>
-    </div>
-    <div class="panel-item" id="panel-3" style="display:none;">
         <h1>
             [ @ ]
         </h1>
@@ -273,16 +224,10 @@ layout: default
             if (obj.classList.contains("item-1")) {
                 document.getElementById("panel-1").style.display = 'block';
                 document.getElementById("panel-2").style.display = 'none';
-                document.getElementById("panel-3").style.display = 'none';
-            } else if (obj.classList.contains("item-2")) {
-                document.getElementById("panel-1").style.display = 'none';
-                document.getElementById("panel-2").style.display = 'block';
-                document.getElementById("panel-3").style.display = 'none';
             } else {
                 document.getElementById("panel-1").style.display = 'none';
-                document.getElementById("panel-2").style.display = 'none';
-                document.getElementById("panel-3").style.display = 'block';
-            }
+                document.getElementById("panel-2").style.display = 'block';
+            } 
         }
     }
 </script>
