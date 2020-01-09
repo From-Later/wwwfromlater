@@ -2,7 +2,12 @@
 <html lang="{{ site.lang | default: "en-US" }}">
     {% include head.html %}
     <body class="grey-bg">
-        {{ content }}
+        <div class="wrapper">
+                {% include leftbar.html %}
+                <section class="right-side">
+                        {{ content }}
+                </section>
+        </div>
     </body>
     {% include analytics.html %}
 </html>
