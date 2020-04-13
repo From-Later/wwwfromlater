@@ -1,11 +1,10 @@
----
----
-
+--- 
+--- 
 @import "from-later";
 
 
 #main-logo {
-    width:100%;
+    width: 100%;
 }
 
 .tagnumber {
@@ -36,7 +35,7 @@ audio {
 
 .logocopyright {
     text-align: center;
-    font-size: 10px;        
+    font-size: 10px;
 }
 
 .introtext {
@@ -44,13 +43,17 @@ audio {
     font-weight: normal;
     border-bottom-color: grey;
     border-bottom-width: thin;
-    border-bottom-style:solid;
+    border-bottom-style: solid;
     padding-bottom: 15px;
 }
 
-#accordion p, #accordion ul, #accordion h3, #accordion .highlighter-rouge {
+#accordion p,
+#accordion ul,
+#accordion h3,
+#accordion h4,
+#accordion .highlighter-rouge {
     display: none;
-}	    
+}
 
 #accordion h2 {
     display: block;
@@ -65,15 +68,17 @@ audio {
     padding-top: 15px;
     border-top-color: lightgray;
     border-top-width: thin;
-    border-top-style:solid;
+    border-top-style: solid;
     font-size: 0.6em;
-    .copyright-left{
-        max-width:30%; 
-        float:left;
+
+    .copyright-left {
+        max-width: 30%;
+        float: left;
     }
-    .copyright-right{
-        max-width:30%; 
-        float:right;
+
+    .copyright-right {
+        max-width: 30%;
+        float: right;
     }
 }
 
@@ -103,6 +108,7 @@ input[type=email] {
     min-width: 65%;
     min-height: 2em;
 }
+
 input[type=email]:focus {
     font-family: 'Courier', sans-serif;
     height: 1.5 em;
@@ -115,7 +121,7 @@ footer {
 }
 
 header {
-    width:300px;
+    width: 300px;
 }
 
 .tagbottom {
@@ -138,7 +144,8 @@ header {
     color: black;
     font-size: 3em;
 }
-#innertag > code {
+
+#innertag>code {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -153,19 +160,19 @@ header {
     line-height: 1;
 }
 
-.container > img {
+.container>img {
     width: 220px;
     height: 220px;
     margin: auto;
     margin-bottom: 20px;
     padding: 0 0 0;
-    
+
 }
 
 .container {
     padding: 0;
     margin: 0;
-    
+
     display: -ms-flexbox;
     display: -moz-flex;
     display: -webkit-flex;
@@ -178,7 +185,7 @@ header {
 }
 
 .grey-bg {
-       
+
     padding-top: 50px;
     background: #E8E6E5;
 
@@ -191,44 +198,52 @@ header {
             margin-bottom: 20px;
             cursor: pointer;
         }
+
         font-size:0.8em;
+
         .main-footer {
-            font-size:0.8em;
+            font-size: 0.8em;
             padding-top: 20px;
             margin: auto;
             /* padding-top: 150px;*/
             margin: auto;
             //font-size: 12px;
             text-align: center;
-          
-    
+
+
         }
     }
+
     #twitter {
-        width:15px;
-        filter: invert(100%); 
-        margin-right:15px;
+        width: 15px;
+        filter: invert(100%);
+        margin-right: 15px;
     }
+
     #insta {
-        width:15px;
-        margin-right:15px;
+        width: 15px;
+        margin-right: 15px;
     }
+
     hr {
-            text-align: center;
-            margin: auto;
-            width: 50px;
-            height: 1px;
-            background: black;
+        text-align: center;
+        margin: auto;
+        width: 50px;
+        height: 1px;
+        background: black;
     }
 
     .right-side {
-        float:right;
+        float: right;
+
         .main-menu-bar {
             width: 100%;
             padding-bottom: 1em;
+
             .main-menu {
                 float: right;
                 padding-bottom: 0px;
+
                 .menu-item {
                     display: inline;
                     font-size: 1em;
@@ -237,10 +252,12 @@ header {
                     cursor: pointer;
                     padding-right: 20px;
                 }
+
                 .menu-item:hover {
                     text-decoration: underline;
                     text-decoration-color: grey;
                 }
+
                 .selected {
                     text-decoration: underline;
                     text-decoration-color: blue;
