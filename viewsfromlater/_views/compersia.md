@@ -1,7 +1,7 @@
 ---
 title: "Compersia"
 layout: views
-permalink: "/compersia"
+permalink: "/compersia.html"
 logo: "/assets/images/views-from-later.svg"
 year: 2019
 tagitems:
