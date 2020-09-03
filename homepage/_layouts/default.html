@@ -3,10 +3,32 @@
     {% include head.html %}
     <body class="grey-bg">
         <div class="wrapper">
-                {% include leftbar.html %}
-                <section class="right-side">
-                        {{ content }}
-                </section>
+            <div class="nav-bar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="/">Projects</a>                     
+                    </li>
+                    <li class="nav-item">
+                        <a href="/">ARC</a>                     
+                    </li>
+                    <li class="nav-item">
+                        <a href="/">Services</a>                     
+                    </li>
+                    <li class="nav-item">
+                        <a href="/">Views</a>                     
+                    </li>
+                    <li class="nav-item">
+                        <a href="/">Contact</a>                     
+                    </li>
+                </ul>
+                <div class="nav-logo">
+                    <img src="{{ '/assets/images/fl-logo.svg' | relative_url }}">            
+                </div>
+            </div>
+            {% include leftbar.html %}
+            <section class="right-side">
+                    {{ content }}
+            </section>
         </div>
     </body>
     {% include analytics.html %}
