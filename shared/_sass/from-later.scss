@@ -1,11 +1,13 @@
 body {
-  background-color: #fff;
+  background-color: #E8E6E5;
   padding:50px;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 16px;
   color:black;
   font-weight:400;
   line-height: 1.5;
+  background-image: url("/assets/images/vertical-waves.png");
+  background-repeat: repeat-y repeat-y;
 }
 
 h1, h2, h3, h4, h5, h6 {
