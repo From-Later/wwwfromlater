@@ -2,15 +2,7 @@
 title: "From Later"
 layout: default
 ---
-<div class="main-menu-bar">
-    <div class="main-menu">
-        <div class="menu-item item-1 selected" onclick="togglePanel(this)"> projects </div>
-        <div class="menu-item item-2" onclick="togglePanel(this)"> contact </div>
-    </div>
-</div>
-<br>
-<div class="panels">
-    <div class="panel-item" id="panel-1">
+
 
         <p>
             <code>April 2020 - Ongoing</code><br>
@@ -199,42 +191,4 @@ layout: default
             <strong>“Lonely Arcade” featuring élah</strong><br>
             [ Recordings ] <em>from later</em><br>
             <code><a href="https://www.lonelyarcade.com">www.lonelyarcade.com</a></code>
-        </p>
-    </div>
- 
-    <div class="panel-item" id="panel-2" style="display:none;">
-        <h1>
-            [ @ ]
-        </h1>
-        <p>
-            We work globally operating out of our office in Toronto.
-        </p>
-        <p>
-            For business, speaking, press, or other enquiries, please email us at:
-            <br>
-            mail [at] <em>fromlater</em> [dot] com.
-        </p>
-    </div>
-</div>
-
-
-<script>
-    var togglePanel = function (obj) {
-        if (obj.classList.contains("selected")) {} else {
-            // menu toggle
-            var menuItems = document.getElementsByClassName("menu-item");
-            Array.from(menuItems).forEach(function (el) {
-                el.classList.remove("selected");
-            });
-            obj.classList.add("selected");
-            // panel toggle
-            if (obj.classList.contains("item-1")) {
-                document.getElementById("panel-1").style.display = 'block';
-                document.getElementById("panel-2").style.display = 'none';
-            } else {
-                document.getElementById("panel-1").style.display = 'none';
-                document.getElementById("panel-2").style.display = 'block';
-            } 
-        }
-    }
-</script>
+        </p>   

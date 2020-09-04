@@ -4,6 +4,9 @@
     <body class="grey-bg">
         <div class="wrapper">
             <div class="nav-bar">
+                <div class="nav-logo">
+                    <img src="{{ '/assets/images/fl-logo.svg' | relative_url }}">            
+                </div>
                 <ul class="nav">
                     <li class="nav-item">
                         <a href="/">Projects</a>                     
@@ -21,14 +24,12 @@
                         <a href="/">Contact</a>                     
                     </li>
                 </ul>
-                <div class="nav-logo">
-                    <img src="{{ '/assets/images/fl-logo.svg' | relative_url }}">            
-                </div>
             </div>
             {% include leftbar.html %}
             <section class="right-side">
                     {{ content }}
             </section>
+            {% include footer.html %}
         </div>
     </body>
     {% include analytics.html %}
