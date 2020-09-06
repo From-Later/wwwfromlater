@@ -1,18 +1,33 @@
 /* CONFIGURATION */
-$base-grey: #E8E6E5;
+
+// Colours
+$base-grey-bg: #E8E6E5;
+$base-colour-sand: #fbefdd;
+$base-colour-grey: #bcbec0;
+$base-colour-lavender:  #dbceef;
+$base-colour-green: #cdd0c4;
+$base-colour-red: #efa59d;
+$base-colour-taupe: #e2dccf;
+$base-colour-blue: #b8c7d4;
+
+// Fonts
+$base-font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+$base-sans-family: 'Work Sans', sans-serif;
 $base-font-size: 14px;
 $base-font-weight:400;
 $base-line-height: 1.5;
 $base-font-color: black;
-$base-font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-$base-left-padding: 5px;
 
+// Responsive design
 $breaking-point: 860px;
+
+// Spacing
+$base-left-padding: 5px;
 $header-width: 300px;
 $section-width: 500px;
 
 body {
-  background-color: $base-grey;
+  background-color: $base-grey-bg;
   font-family: $base-font-family;
   font-size: $base-font-size;
   color: $base-font-color;
@@ -53,14 +68,13 @@ body {
 }
 
 .nav-item a, .left-bar a {
-  font-family: 'Work Sans', sans-serif;
-  color: black;
+  font-family: $base-sans-family;
+  color: $base-font-color;
 }
-.nav-item a:hover, .left-bar a:hover {
-  color: black;
+.nav-item a:hover, .left-bar a:hover, .current a {
+  color: $base-font-color;
   border-bottom: 1px solid black;
   padding-bottom: 3px;
-  //text-decoration: underline;
 }
 
 .nav-logo {
@@ -93,7 +107,7 @@ body {
 
 .left-bar .social {
   font-size: 0.8em;
-  font-family: 'Work Sans', sans-serif;
+  font-family: $base-sans-family;
 }
 .social-links {
   display: flex;
@@ -134,7 +148,7 @@ border-radius: 0;
 input[type=submit] {
     margin-left: $base-left-padding;
     font-size: inherit;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $base-sans-family;
     background: transparent;
     border: 1px solid black;
 }
@@ -144,13 +158,19 @@ input[type=submit]:hover {
 }
 
 input[type=email] {
-    flex: 1;
-    font-size: inherit;
-    font-family: 'Work Sans', sans-serif;
-    border-width: 0;
-    outline: 0;
-    background: transparent;
-    border-bottom: 1px solid black;
+  flex: 1;
+  font-size: inherit;
+  font-family: $base-sans-family;
+  border-width: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.highlight-block {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: $base-colour-sand;
 }
 
 /////////////////////////////////////////////

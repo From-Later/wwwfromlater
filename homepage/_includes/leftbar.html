@@ -1,6 +1,11 @@
 <header class="left-bar">
-    <p><strong>From Later is a foresight studio.</strong></p>
+    {% if page.left_sticky_content %}
+    {{ page.left_sticky_content | markdownify }}
+    {% else %}
+    <h2>From Later is a foresight studio.</h2>
     <p>We monitor and make sense of change, developing clear-sighted and judicious futures perspectives.</p>
-    <p>We develop tools and ways of working that augment our faculties for research, problem-solving, and creativity.</p>
+    <p>We develop tools and ways of working that augment our faculties for research, problem-solving, and creativity.
+    </p>
     <p>We explore the capacities of art, science, theory, and strategy to address complex challenges.</p>
+    {% endif %}
 </header>

@@ -1,0 +1,28 @@
+{% for entry in site.data.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+    {% if fullurl == page.url %}
+        {% assign current_page = fullurl %}
+        {% break %}
+    {% elsif page.url contains fullurl %}
+        {% assign current_page = fullurl %}
+    {% endif %}
+{% endfor %}
+
+<div class="nav-bar">
+     <div class="nav-logo">
+         <img src="{{ '/assets/images/fl-logo.svg' | relative_url }}">            
+     </div>
+     <ul class="nav">
+          {% for entry in site.data.navigation %}
+          {% if entry.url == current_page %}
+              {% assign class = ' class="nav-item current"' %}
+          {% else %}
+              <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
+              {% assign class = ' class="nav-item"''  %}
+          {% endif %}
+          <li{{ class }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+         {% endfor %}
+     </ul>
+ </div>
+
+
