@@ -28,10 +28,15 @@ encoding: utf-8
 google_analytics: UA-110955218-3
 
 collections:
-  songs:
+  research:
     output: true
-
-
+    permalink: /views/research/:name
+  recordings:
+    output: true
+    permalink: /views/recordings/:name
+  sensemaking:
+    output: true
+    permalink: /views/sensemaking/:name
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

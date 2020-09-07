@@ -2,12 +2,12 @@
 title: "All Relevant Change"
 layout: default
 left_sticky_content: |
-  ## All Relevant Change
+  # All Relevant Change
 
   ARC is your strategic radar – a research subscription documenting the ongoing uncertainties shaping your organization’s future. Refreshed quarterly, it clarifies what’s changing, helping organizations coordinate internally and make better bets.
 ---
 
-# ARC is an executive briefing on all relevant change.
+## ARC is an executive briefing on all relevant change.
 
 It provides a big picture view of what matters to the future of your organization. Filtering out the noise of short-term trends, ARC reduces the space of unknown unknowns and gives you a strong handle on the futures unfolding.
 

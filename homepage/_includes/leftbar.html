@@ -1,6 +1,23 @@
 <header class="left-bar">
     {% if page.left_sticky_content %}
     {{ page.left_sticky_content | markdownify }}
+    {% elsif page.tagitems %}
+    <h1>{{page.title}}</h1>
+    {% if page.audio %}
+    <audio controls preload="auto" onplay="ga('send', 'event', 'Audio', 'play', '{{page.title}}');">
+        <source src="{{ page.audio}}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    {% endif %}
+    <div class="generic-tag">
+        {% for item in page.tagitems %}
+        {% if item.tag %}
+        <code>{{ item.tag.name }}:</code> {{item.tag.value}}<br>
+        {% elsif item.footer %}
+        <code><em>{{item.footer.value}}</em></code>
+        {% endif %}
+        {% endfor %}
+    </div>
     {% else %}
     <h2>From Later is a foresight studio.</h2>
     <p>We monitor and make sense of change, developing clear-sighted and judicious futures perspectives.</p>
@@ -9,3 +26,35 @@
     <p>We explore the capacities of art, science, theory, and strategy to address complex challenges.</p>
     {% endif %}
 </header>
+
+<script>
+    window.onscroll = function () {
+        headerEl = document.getElementsByTagName("header")[0];
+        footerEl = document.getElementsByTagName("footer")[0];
+        pos = document.getElementsByClassName("nav-wrapper")[0].offsetHeight;
+        followTo(pos, headerEl);
+        headerBottom = headerEl.offsetTop + headerEl.offsetHeight;
+        footerOffset = footerEl.offsetHeight;
+        windowHeight = window.innerHeight;
+        console.log(headerBottom);
+        console.log(footerOffset);
+        console.log(windowHeight);
+        if (headerBottom + footerOffset > windowHeight) {
+            footerEl.style.position = "static";
+            footerEl.style.float = "none";
+            footerEl.style.width = "auto";
+        } else {
+            footerEl.style.position = "fixed";
+            footerEl.style.float = "left";
+        }
+    };
+
+    function followTo(pos, el) {
+        if (document.body.scrollTop > pos || document.documentElement.scrollTop > pos) {
+            el.style.position = "fixed";
+            el.style.top = 0;
+        } else {
+            el.style.position = "relative";
+        }
+    }
+</script>
