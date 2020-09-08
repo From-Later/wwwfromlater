@@ -3,19 +3,22 @@ title: "Views"
 layout: default
 left_sticky_content: |
   # [ Views ] from later
-  Futures research and inquiry through scenarios, songs, design fictions, speculations, lexicons, prototypes, and illustrations.
+  Futures research and inquiry through scenarios, songs, design fictions, speculations, lexicons, prototypes, and illustrations at the foresight studio.  
+  > **fore-**  
+  designating the earliest time   
+  **sight**    
+  perception on a direct and immediate level; the faculty or act of understanding  
+  **studio**   
+  from Italian studio “room for study”, from Latin studium “application of the mind to the acquisition of knowledge, intensive reading, and contemplation”
 ---
 
-## Scanning the extreme present. Drafting possible futures.
+## Drafting possible futures
 
-**[ Views ] from later** catalogues our ongoing work in:
+As a foresight studio, our practice devotes time and space to developing novel futures perspectives.
 
-{: .highlight-block }
+Our work is a constant and overlapping cycle of interdependent activities: scanning the extreme present for signals of change; defining new territories for focused research; mapping consequences and imagining possible futures; and critically interpreting our research through artistic processes, speculative prototypes, and literary artifacts.
 
-- Observing, understanding, and analyzing change
-- Locating critical territories for focused research and exploration
-- Generating possibilites and provoking new thinking
-- Drafting futures, developing scenarios, and imagining new pathways for transformation
+Our research projects are catalogued here as generative resources for new cultural and design imaginaries.
 
 {% for entry in site.data.navigation %}
 {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}

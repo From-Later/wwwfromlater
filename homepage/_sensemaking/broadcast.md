@@ -35,6 +35,6 @@ On Broadcast From Later, we share our "Weakest Signals," novel and weird events 
 
 Want to know our sources? Follow us on [Are.na](https://www.are.na/from-later) and [Twitter](https://twitter.com/since21xx) — where we post Weak Signals regularly.
 
-## Watch the broadcast
+## Latest broadcast
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLohXMCP8mwsYFFatVkXwJOXehhueNhOiW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

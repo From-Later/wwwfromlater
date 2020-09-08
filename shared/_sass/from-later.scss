@@ -32,7 +32,7 @@ $base-large-font-size: 1.2em;
 $breaking-point: 991px;
 
 // Spacing
-$base-left-padding: 5px;
+$base-left-padding: 10px;
 $header-width: 350px;
 $section-width: 600px;
 
@@ -54,6 +54,7 @@ body {
 .nav-wrapper {
   margin: 0;
   padding: 0px;
+  border-bottom: 1px solid black;
 }
 
 .nav-bar {
@@ -117,14 +118,12 @@ body {
   flex-flow: column wrap;
   height: 120px;
   font-size: $base-small-font-size; // most text should be small
-  border-bottom: 1px solid black;
-  margin-bottom: 15px;
 }
 
 .sub-nav-item {
   width: 25%;
-  padding-top: $base-left-padding;
-  margin-left: 10px;
+  padding-top: 5px;
+  margin-left: 5px;
   font-family: $base-sans-family;
 }
 
@@ -315,10 +314,8 @@ a:hover small {
 }
 
 blockquote {
-  border-left: 1px solid #e5e5e5;
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
+  font-family: $base-sans-family;
+  font-size: $base-small-font-size;
 }
 
 code,
@@ -377,6 +374,7 @@ section {
   width: $section-width;
   float: right;
   padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 small {
@@ -391,9 +389,10 @@ hr {
 
 footer {
   width: $header-width;
+  border-top: 2px solid black;
   float: left;
   //position: fixed;
-  bottom: $base-left-padding;
+  //bottom: $base-left-padding;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -406,7 +405,6 @@ screen and (max-width: $breaking-point) {
 
   header {
     border-bottom: 1px solid black;
-    border-top: 1px solid black;
   }
 
   header,

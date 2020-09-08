@@ -10,6 +10,9 @@
     </audio>
     {% endif %}
     <div class="generic-tag">
+        {% if page.cover_image %}
+        <img src="{{ page.cover_image }}" style="max-height: 100px; float: right;">
+        {% endif %}
         {% for item in page.tagitems %}
         {% if item.tag %}
         <code>{{ item.tag.name }}:</code> {{item.tag.value}}<br>
@@ -32,29 +35,21 @@
         headerEl = document.getElementsByTagName("header")[0];
         footerEl = document.getElementsByTagName("footer")[0];
         pos = document.getElementsByClassName("nav-wrapper")[0].offsetHeight;
-        followTo(pos, headerEl);
-        headerBottom = headerEl.offsetTop + headerEl.offsetHeight;
-        footerOffset = footerEl.offsetHeight;
-        windowHeight = window.innerHeight;
-        console.log(headerBottom);
-        console.log(footerOffset);
-        console.log(windowHeight);
-        if (headerBottom + footerOffset > windowHeight) {
-            footerEl.style.position = "static";
-            footerEl.style.float = "none";
-            footerEl.style.width = "auto";
-        } else {
-            footerEl.style.position = "fixed";
-            footerEl.style.float = "left";
-        }
+        followTo(pos, headerEl, 0);
+        followTo(pos, footerEl, headerEl.offsetHeight);
     };
-
-    function followTo(pos, el) {
+    /*
+    pos: position to trigger snapping
+    fix: position to fix to
+    */
+    function followTo(pos, el, fix) {
         if (document.body.scrollTop > pos || document.documentElement.scrollTop > pos) {
+            el.style.top = fix + 'px';
             el.style.position = "fixed";
-            el.style.top = 0;
         } else {
             el.style.position = "relative";
+            el.style.top = "";
+            el.style.bottom = "";
         }
     }
 </script>

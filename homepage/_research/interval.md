@@ -2,6 +2,7 @@
 title: "Interval"
 layout: default
 year: 2020
+cover_image: /assets/images/interval_patch.png
 tagitems:
   - tag:
       name: "PROTOTYPE"
@@ -27,11 +28,14 @@ tagitems:
   - tag:
       name: "CATEGORY"
       value: Spacewares
+overview_effect_source: /assets/mp3/interval_overview_effect.mp3
 ---
 
 _In the midst of a seven hour lunar surface mission to collect distant crater samples, the astronaut is cognitively and physically exhausted. Mission control notifies her to standby as they go offline to troubleshoot comms. She has a twenty minute window. Tapping the EVA helmet activates Interval. The visor dims, a soothing soundscape fills the helmet, and a voice guides her through a meditation practice. A subtle glow pulses in step with their heart rate, growing slower as she relaxes…_
 
-In February 2018, From Later collaborated with Maryam Nabavi of Levitate Design on prototyping products for near-term futures of passenger space travel. We designed and built Interval, a wearable device to test the effectiveness of meditation to improve individual wellbeing in extreme environments. Interval was tested during Lunares III SPECTRA–a 15-day isolated and confined lunar analogue mission simulation at Habitat Lunares in Piła, Poland.
+![](/assets/images/interval_2.jpg)
+
+In 2018, From Later collaborated with Maryam Nabavi of Levitate Design on prototyping products for near-term futures of passenger space travel. We designed and built Interval, a wearable device to test the effectiveness of meditation to improve individual wellbeing in extreme environments. Interval was tested during Lunares III SPECTRA–a 15-day isolated and confined lunar analogue mission simulation at Habitat Lunares in Piła, Poland.
 
 Click on the headings below to learn more about the project.
 
@@ -39,6 +43,8 @@ Click on the headings below to learn more about the project.
 
 - [ Spacewares: personal products for comfort and wellbeing during space travel ](#-spacewares-personal-products-for-comfort-and-wellbeing-during-space-travel-)
 - [ Ensuring psychological wellbeing during missions in extreme environments ](#-ensuring-psychological-wellbeing-during-missions-in-extreme-environments-)
+- [ Insights and speculations ](#-insights-and-speculations-)
+- [ Further outcomes ](#-further-outcomes-)
 
 ## [ Spacewares: personal products for comfort and wellbeing during space travel ]
 
@@ -56,7 +62,7 @@ We were invited to participate in Lunares III SPECTRA (February 2018)–a 15-day
 
 The simulation would serve as a testbed to study physical, psychological and engineering challenges for habitability. Research from this program would be used toward artistic, scientific, educational, and outreach activities aimed at supporting life in space.
 
-The Lunares crew discussed the challenge of sleep deprivation during our team briefing. In fact, sleep disturbances, somatic complaints, heart palpitations, anxiety, mild forms of depression, and inconsistent motivation are frequently reported by crew members of longer space missions and are well documented. (The NASA History Series, “Psychology of Space Exploration–Contemporary Research in Historical Perspective”).
+The Lunares crew discussed the challenge of sleep deprivation during our team briefing. In fact, sleep disturbances, somatic complaints, heart palpitations, anxiety, mild forms of depression, and inconsistent motivation are frequently reported by crew members of longer space missions and are [well documented](https://www.nasa.gov/pdf/607107main_PsychologySpaceExploration-ebook.pdf).
 
 Extravehicular Activities (EVAs), such as space walks or activities on the moon’s surface, require heightened focus and attention. Astronauts are exposed to significant stressors while performing operations in dark, uneven, and hazardous environments. Ensuring the psychological health of astronauts during cognitively and physically demanding EVAs is particularly important to mission safety.
 
@@ -64,9 +70,7 @@ Lunares III scheduled long periods of surface activity, where the crew left the 
 
 We framed the project problem as:
 
-{: .highlight-block }
-
-- **During short periods of downtime, how might we help replenish the energy and focus of people working in extreme environments, such as Lunar EVAs?**
+**During short periods of downtime, how might we help replenish the energy and focus of people working in extreme environments, such as Lunar EVAs?**
 
 ## [ Scenario: Lunares III ]
 
@@ -89,6 +93,8 @@ Interval is used by surface crew to:
 
 As an exploratory project, Interval was built within a rapid two-week timeline and a restricted budget of \$500 for hardware. We describe salient features below.
 
+![](/assets/images/interval_3.jpg) _Design of Interval_
+
 ### Gesture control
 
 Ideally, Interval’s features would be integrated directly into the EVA suit. However, for exploring the concept we designed Interval as a standalone device to be worn under the EVA helmet. This made it possible to prototype the headset in our studio without an EVA suit handy, it posed challenges during the actual mission. Worn under the EVA helmet, the crew would not have direct physical access to the Interval device.
@@ -97,9 +103,13 @@ To solve this problem, we built in touchless controls for Interval using magnets
 
 Interval uses a pair of “hall effect sensors,” i.e., materials that are highly sensitive to changes in magnetic fields, as device inputs. The two hall effect sensors act as independent switches. Each is activated by changing the nearby magnetic, i.e., by bringing a strong magnet in close proximity to the sensor. To interact with the sensors, the user wears magnetic straps (embedded with rare earth magnets) on each wrist. Once the hall effect sensors are fastened to the helmet visor via suction cups, the visor behaves as a rudimentary gestural interface. By swiping or tapping one’s wrist to the visor, the sensors are activated and perform various functions depending on the device mode.
 
+![](/assets/images/interval_4.png) _Rare earth magnets on wrist straps_
+
 ### Light shade
 
 Our intention with Interval was to allow dynamic control of all environmental variables–including lighting. (Lunares III mission would be performed in a dark crater, however ambient lighting from equipment is distracting and would interfere with the pulse feedback LED.) Interval uses a “light valve,” a technology otherwise used to black out welding helmets or adjust the opacity of LCD displays, to control ambient light levels inside the EVA helmet. When activated through gestures, an electronic signal is sent to the light valve, instantly dimming the visor and shielding the wearer from outside light. The wearer is cocooned, able to focus on themselves.
+
+![](/assets/images/interval_5.jpg) _Mission specialist Andreea Radulescu tested Interval during Lunares III._
 
 ### Biometric logging and feedback
 
@@ -115,4 +125,28 @@ When activated, Interval plays an audio track designed to stimulate (or simulate
 
 For individuals exploring in extreme environments, the Overview Effect audio meditation may promote relaxation as it reveals the insignificance of conflict, worry, or stress relative to a higher purpose; in recognizing one’s inextricable connection to the cosmos, one recognizes the human role and capacity as a sensing element in the universe. Or as Carl Sagan has put it: “we are a way for the universe to know itself.”
 
-Music composed by Yobi Alan w/ vocal by Robert Bolton.
+<audio controls preload="auto" onplay="ga('send', 'event', 'Audio', 'play', '{{page.title}}');">
+    <source src="{{ page.overview_effect_source }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+Music composed by [Yobi Alan](https://soundcloud.com/yobialan) with vocal by Robert Bolton.
+
+## [ Insights and speculations ]
+
+Whether short, in situ periods of meditation can help individuals manage stress during extreme activities warrants more study. However, we are encouraged by the creative potential of the materials and methods we employed.
+
+### Magnets to build novel, low cost gestural interfaces
+
+We are excited about numerous applications for magnetic gestural interfaces for scenarios where hand dexterity is compromised due to protective clothing or injury. Magnets combined with magnetic sensors provide a way to create a 3D input device for tracking movement. By sensing the relative strength of the magnetic fields by multiple sensors, one can triangulate the location of magnets in 3D space.
+
+Magnets come with their own challenges. The magnets we used to create the gesture interface attracted ferromagnetic debris. The placement of the magnets also increased dust build up affecting sensor responsiveness.
+
+### Dynamic opacity in personal protective gear
+
+From sunglasses to face masks, electronically adjustable opacity can provide both aesthetic and functional benefits in wearables. Privacy and counter-surveillance, eye protection, and "facial displays" are some of the areas we are exploring. Ongoing research can be found on this [are.na channel](https://www.are.na/from-later/masks-iuih9yuwyla).
+
+## [ Further outcomes ]
+
+Sarah Jane Pell presented a paper at the 70th International Astronautical Congress IAC'19 held in Washington, D.C. 21-25 October 2019, titled [“Apollo and the Muses: a preliminary discussion of the cultural and technical inspirational knowledge embedded in the lunar space arts of an analogue mission.”](https://www.researchgate.net/publication/337135994_Apollo_and_the_Muses_a_preliminary_discussion_of_the_cultural_and_technical_inspirational_knowledge_embedded_in_the_lunar_space_arts_of_an_analogue_mission)
+
+![](/assets/images/interval_1.jpg)
