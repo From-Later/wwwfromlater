@@ -396,8 +396,7 @@ footer {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-@media print,
-screen and (max-width: $breaking-point) {
+@media print, screen and (max-width: $breaking-point) {
   div.wrapper {
     width: auto;
     margin: 0;
@@ -417,6 +416,17 @@ screen and (max-width: $breaking-point) {
 
   .sub-nav {
     display: none;
+  }
+}
+@media print, screen and (max-width: 480px) {
+  .nav-item {
+    font-size: $base-font-size;
+  }
+}
+
+@media print, screen and (max-width: 320px) {
+  .nav-item {
+    font-size: $base-small-font-size;
   }
 }
 
