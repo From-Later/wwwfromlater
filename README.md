@@ -72,7 +72,8 @@ Everyone is welcome to make pull requests! Our process for accepting changes has
 - Visit AWS console for our [S3 bucket](https://s3.console.aws.amazon.com/s3/buckets/www.fromlater.com?region=us-east-1&tab=objects)
 - Delete any files present and replace with files generated in your local `wwwfromlater/homepage/_site` directory
   - The website should be visible on [`http://www.fromlater.com.s3-website-us-east-1.amazonaws.com/`](http://www.fromlater.com.s3-website-us-east-1.amazonaws.com/)
-- Make public
+- Make all the files publicly readable
+- Rename `/views.html` to `/views`
 - Create invalidation in the [cloudfront distribution](https://console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/distributions/E2O540YJYY20OE) to force an update in the CDN
 
 ## TODO
