@@ -21,6 +21,63 @@ We develop tools and ways of working that augment our faculties for research, pr
 We explore the capacities of art, science, theory, and strategy to address complex challenges.
 {% endcapture %}
 
+`July 2021`    
+**Desire Paths**  
+Podcast series, Luminato Festival  
+[luminatofestival.com/podcasts/desire-paths/](https://luminatofestival.com/podcasts/desire-paths/)  
+
+`July 2021`  
+**Futures of Democratized 3D Tools and Platforms**  
+Research and futures perspectives  
+Montréal, QC, Canada  
+
+`June 2021`  
+**Directions to Nowhere in Particular**  
+Prompts for sensing, making, and navigating public space  
+[directionstonowhere.com](https://www.directionstonowhere.com/)  
+
+`May 2021`  
+**This Woman’s Work**  
+Exhibit, ATM x Myseum Intersections  
+[myseumoftoronto.com/programming/this-womans-work](http://www.myseumoftoronto.com/programming/this-womans-work/)  
+
+`April 2021`  
+**Work/Place Futures**  
+Report and Podcast Series, Lane  
+[workplace.show](https://www.workplace.show/)  
+
+`April 2021`  
+**Restore the Core**  
+Scenarios, Canadian Urban Institute  
+
+`March, 2021`  
+**Recomposia**  
+Soundscape and panel discussion  
+Adidas x Slow Factory Foundation  
+
+`February 2021`  
+**Digital and/as Public Space**  
+Digital Facilitator, The Bentway  
+[thebentway.ca/stories/digital-and-as-public-space-101-with-from-later](https://www.thebentway.ca/stories/digital-and-as-public-space-101-with-from-later/)  
+
+`February 2021`  
+**Toolkit for Generous Listening**  
+The Vuslat Foundation  
+
+`January 2021`  
+**Envisioning the Next Decade**  
+Narrative Strategy, Autodesk Foundation  
+San Francisco CA, USA  
+
+`December 2020`  
+**Strategic Blueprint 2025**  
+Campari x Angry Butterfly  
+Toronto, ON, Canada  
+
+`November 2020`  
+**Speculative Brands in Biology**  
+SynBioBeta Conference  
+
 `September 2020`  
 **Memory Work**  
 Immersive Soundscape Scenario  
@@ -67,7 +124,7 @@ Foresight report and perspectives for growth
 Toronto ON, Canada
 
 `November 2019`  
-**Futures of Sleep**
+**Futures of Sleep**  
 A foresight study  
 Toronto ON, Canada
 

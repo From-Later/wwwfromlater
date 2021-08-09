@@ -18,14 +18,34 @@ The [wwwfromlater/shared](https://github.com/From-Later/wwwfromlater/tree/master
 ## Set up locally on your machine
 1. Clone the repository with `git clone https://github.com/From-Later/wwwfromlater.git`
 2. Navigate to any of the main web directories by first `cd wwwfromlater` and then `cd homepage`
-3. Build Jekyll code by `jekyll build`
-4. Serve locally by `jekyll serve`
-5. You should see a message like: 
+3. Install with bundler `bundler install`
+4. Build Jekyll code by `bundle exec jekyll build`
+5. Serve locally by `bundle exec jekyll serve`
+6. You should see a message like: 
 ```
 Server address: http://127.0.0.1:4000/
 Server running... press ctrl-c to stop.
 ```
-6. Navigate to `http://127.0.0.1:4000/` on your browser to see if it worked
+7. Navigate to `http://127.0.0.1:4000/` on your browser to see if it worked
+
+### Notes on versions
+I find version and dependency management in Ruby confusing. Maybe helpful:
+- I'm using Ruby version `2.7.4`
+- You can use [rbenv](https://github.com/rbenv/rbenv) to manage Ruby versions
+  - List available ruby versions for installation: `rbenv install -l`
+  - Install a Ruby version like this: `rbenv install 2.7.4`
+  - See versions: `rbenv versions`
+  - Change local version: `rbenv local 2.7.4`
+
+### Known issue with ffi compilation
+There's a known compilattion issue with the ffi gem, when compiling using an M1 architecture Mac chip.
+```
+[-Werror,-Wimplicit-function-declaration]
+    result = ffi_prep_closure(pcl, cif, callback, (void *)self);
+             ^
+```
+
+A workaround is to run `bundle config --local build.ffi --with-cflags="-Wno-error=implicit-function-declaration"` before `bundler install`
 
 ## Contribution Guidelines
 Everyone is welcome to make pull requests! Our process for accepting changes has a few steps:
@@ -48,5 +68,13 @@ Everyone is welcome to make pull requests! Our process for accepting changes has
 
 6. Once you have integrated comments, or waited for feedback, merge away!
 
-## TODO:
-- [ ] @uditvira to add deployment instructions
+## Deployment
+- Visit AWS console for our [S3 bucket](https://s3.console.aws.amazon.com/s3/buckets/www.fromlater.com?region=us-east-1&tab=objects)
+- Delete any files present and replace with files generated in your local `wwwfromlater/homepage/_site` directory
+  - The website should be visible on [`http://www.fromlater.com.s3-website-us-east-1.amazonaws.com/`](http://www.fromlater.com.s3-website-us-east-1.amazonaws.com/)
+- Make public
+- Create invalidation in the [cloudfront distribution](https://console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/distributions/E2O540YJYY20OE) to force an update in the CDN
+
+## TODO
+- [ ] automate deploy pipeline
+- [ ] Arena integration
