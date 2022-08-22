@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en-US">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<meta name="viewport" content="width=device-width">
+<!--[if lt IE 9]>
+     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Lonely Arcade</title>
+    <body class="grey-bg">
+        <div class="wrapper">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="nav-wrapper">
+     <div class="nav-bar">
+          <div class="nav-logo">
+               <img src="/assets/images/fl-logo.svg">
+          </div>
+          <ul class="nav">
+               
+               
+               <li class="nav-item"><a href="/">Projects</a></li>
+                    
+               
+               <li class="nav-item"><a href="/arc.html">ARC</a></li>
+                    
+               
+               <li class="nav-item"><a href="/services.html">Services</a></li>
+                    
+               
+               <li class="nav-item current"><a href="/views">Views</a></li>
+                    
+               
+               <li class="nav-item"><a href="/contact.html">Contact</a></li>
+                    
+          </ul>
+
+     </div>
+     
+     <div class="sub-nav">
+          
+          
+          <div class="sub-nav-item subfolder-title">
+               Research
+          </div>
+          
+          
+          <a class="sub-nav-item" href=https://www.memory-work.com>Memory Work</a>
+          
+          <a class="sub-nav-item" href=/views/research/fertilizer.html>Fertilizer</a>
+          
+          <a class="sub-nav-item" href=/views/research/interval.html>Interval</a>
+          
+          <a class="sub-nav-item" href=/views/research/compersia.html>Compersia</a>
+          
+          
+          
+          <div class="sub-nav-item subfolder-title">
+               Recordings
+          </div>
+          
+          
+          <a class="sub-nav-item" href=/views/recordings/lonelyarcade.html>Lonely Arcade</a>
+          
+          <a class="sub-nav-item" href=/views/recordings/allofyou.html>All of You</a>
+          
+          
+          
+          <div class="sub-nav-item subfolder-title">
+               Sensemaking
+          </div>
+          
+          
+          <a class="sub-nav-item" href=/views/sensemaking/broadcast.html>Broadcast</a>
+          
+          <a class="sub-nav-item" href=http://allrelevantchange.com>COVID-19 uncertainties</a>
+          
+          <a class="sub-nav-item" href=https://dust.fromlater.com>DUST</a>
+          
+          
+          
+          <div class="sub-nav-item subfolder-title">
+               Articles
+          </div>
+          
+          
+          <a class="sub-nav-item" href=https://learn.marsdd.com/article/strategic-foresight-for-smes-and-startups/>Strategic foresight for SMEs</a>
+          
+          <a class="sub-nav-item" href=https://learn.marsdd.com/article/foresight-in-five-steps-for-smes-and-startups/>Foresight in five steps</a>
+          
+          <a class="sub-nav-item" href=https://learn.marsdd.com/article/what-are-weak-signals-of-change/>What are weak signals?</a>
+          
+          <a class="sub-nav-item" href=https://learn.marsdd.com/article/how-to-scan-for-weak-signals-of-change/>How to scan for weak signals</a>
+          
+          <a class="sub-nav-item" href=https://learn.marsdd.com/article/scenario-planning-for-strategic-decision-making/>On scenario planning</a>
+          
+          <a class="sub-nav-item" href=https://learn.marsdd.com/article/covid-19-building-futures-in-the-midst-of-a-crisis/>Building futures amidst COVID-19</a>
+          
+          
+     </div>
+</div>
+
+
+            <header class="left-bar">
+    
+    <h1>Lonely Arcade</h1>
+    
+    <audio controls preload="auto" onplay="ga('send', 'event', 'Audio', 'play', 'Lonely Arcade');">
+        <source src="/assets/mp3/lonely_arcade.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <div class="generic-tag">
+        
+        
+        
+        <code>SONG:</code> Lonely Arcade<br>
+        
+        
+        
+        <code>ARTIST:</code> From Later<br>
+        
+        
+        
+        <code>FEATURING:</code> élah<br>
+        
+        
+        
+        <code>COMPOSITION:</code> R. Bolton, G. Whelehan, R. Hale<br>
+        
+        
+        
+        <code>SERIES:</code> Research-based, speculative songs<br>
+        
+        
+        
+        <code>SCENARIO:</code> The Lonely Arcade is an abundant, AI-and-robotics-enabled, post-work, leisure society. Without much need for human labour, many people struggle to find fulfillment.<br>
+        
+        
+        
+        <code>RESEARCH:</code> R. Bolton, U. Vira<br>
+        
+        
+        
+        <code>ISRC:</code> QM-EU3-17-25160<br>
+        
+        
+    </div>
+    
+</header>
+
+<script>
+    window.onscroll = function () {
+        headerEl = document.getElementsByTagName("header")[0];
+        footerEl = document.getElementsByTagName("footer")[0];
+        pos = document.getElementsByClassName("nav-wrapper")[0].offsetHeight;
+        followTo(pos, headerEl, 0);
+        followTo(pos, footerEl, headerEl.offsetHeight);
+    };
+    /*
+    pos: position to trigger snapping
+    fix: position to fix to
+    */
+    function followTo(pos, el, fix) {
+        if (document.body.scrollTop > pos || document.documentElement.scrollTop > pos) {
+            el.style.top = fix + 'px';
+            el.style.position = "fixed";
+        } else {
+            el.style.position = "relative";
+            el.style.top = "";
+            el.style.bottom = "";
+        }
+    }
+</script>
+            <section class="right-side">
+                    <p>“Lonely Arcade” is № 01 in a series of songs from later — songs written as though created in a further future environment. The speculative songs are intended to provoke critical dialogue about where we are headed. Click the headings below to learn more about the future scenario and the signals of change that informed it.</p>
+
+<ul class="highlight-block">
+  <li><a href="#-lyrics-"> Lyrics </a></li>
+  <li><a href="#-scenario-"> Scenario </a></li>
+  <li><a href="#-research-"> Research </a></li>
+  <li><a href="#-performances-"> Performances </a></li>
+</ul>
+
+<h2 id="-lyrics-">[ Lyrics ]</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I came into this venue, encouraging myself,
+certain of myself, worthy of my self.
+Unrestricted menu: searching for my self,
+unsure of myself, murky little self.
+
+And we drudged through the mud
+from the garden to be
+in this lonely arcade
+with its holy machines
+that we made to reduce
+what we do to produce
+what we need to be made
+to be useless and free.
+
+At closing time, who are you? Who are you?
+In Paradise, what will you do? Who are you?
+
+≑
+
+What do we resemble? Mirror of my self,
+theatre of my self, weaker than myself.
+What have we assembled? Freer of my self,
+greater than my self, weirder than my self.
+
+In this lonely arcade,
+with its cheeky machines,
+and the Leisure Decree,
+that we made and conceived
+out of tungsten and gold,
+from our codes, of our genes,
+from our muscle and bone,
+and our low self esteems.
+
+At closing time, who are you? Who are you?
+We’re paralyzed. Who are you? What will you do? Who are you?
+</code></pre></div></div>
+
+<h2 id="-scenario-">[ Scenario ]</h2>
+
+<p>In the Lonely Arcade scenario, the ultimate aim of engineering, to lighten the load of labour, has been so successful that few important jobs are left for humans. The Great Displacement begins with repetitive task-oriented manual work and desk jobs, but soon spreads to pilots, professional drivers, lawyers, and teachers. Eventually the roles of doctors and dentists, salespeople, makeup artists, plumbers, designers and engineers are all supplanted by technology. Many of the global behemoth corporations employ nobody, not even a CEO.</p>
+
+<p>Even the world’s wickedest problems — like social injustice, climate change, healthcare, and food insecurity — are better addressed by artificial intelligence than by humans. Indeed, it is an AI that finally devises a scheme for a fair and universal guaranteed income to be paid out via blockchain technologies. The Leisure Decree, legislated by a network of well-meaning, intelligent software agents, rules that no person should work more than one day a week, enough to take care of the odds and ends—mostly machine maintenance and a few menial tasks that humans are still better at. Tens of thousands of years of fulltime drudgery come to an end.</p>
+
+<p>For the moment, it is an idyllic era of bountiful splendour, satisfaction, and harmony. Everyone may have and do what they want, when they want. The only currency of any consequence is reputation; and much time and energy is spent trying to build celebrity status and increase followings. But that gets old rather quickly. Without meaningful work, people struggle to define unique identities. With no apparent reason to develop a talent, practice creativity, engage their intellectual curiosity, or achieve much of anything, many people are left feeling purposeless, unmotivated, unfulfilled and alone. A working class hero, it turns out, is something to be.</p>
+
+<p><img src="/assets/images/lonelyarcade.png" alt="" />
+<em>art by Jess Audrey Lynn</em> <a href="https://www.instagram.com/jessaudreylynn/" target="\_bank">∎</a></p>
+
+<h2 id="-research-">[ Research ]</h2>
+
+<p>The Lonely Arcade is a research-based speculative fiction. The following research themes—<em>Automation of labour; Automation of intelligence; In a world with less work; Speculative societies; Time, meaning, music, and work</em>—informed the scenario and song. The themes and instances below provide context for imagining how historical and present-day issues could evolve.</p>
+
+<h3 id="automation-of-labour">Automation of labour</h3>
+
+<p><strong><em>The Future of Jobs</em>,</strong> an Oxford study assessing automation capabilities, estimates that 47 per cent of total US employment could be computerized in the coming decades. In the developing world, two-thirds of all jobs are susceptible to technological automation, according to the World Bank.
+<a href="https://www.oxfordmartin.ox.ac.uk/publications/view/1314" target="\_bank">∎</a>
+<a href="http://documents.worldbank.org/curated/en/896971468194972881/pdf/102725-PUB-Replacement-PUBLIC.pdf" target="\_bank">∎</a></p>
+
+<p><strong>The Economic Policy Institute</strong> says “there is no evidence that automation leads to joblessness.” While it is true that automation technologies displace jobs, they also increase productivity enabling companies to expand and hire more people. If automation makes it cheaper for companies to produce goods and deliver services, then lowered prices enjoyed by consumers may enable them to buy more things and different things altogether. Such a demand shift may necessitate the creation of new jobs. Additionally, novel innovations associated with automation technologies can also create entirely new industries.
+<a href="http://www.epi.org/files/pdf/126750.pdf" target="\_bank">∎</a></p>
+
+<p>American economist Robert Gordon says <strong>a rising robotics revolution</strong> should boost productivity and bring about surges in capital expenditure. Instead, says Gordon, productivity has stagnated and employment figures are growing. To explain, Ryan Avent, senior editor at the Economist, suggests that rising automation could in fact lower productivity: the digital revolution is creating an abundance of available labour which lowers wages and makes it economically possible to hire workers to do lower productivity work.
+<a href="https://medium.com/@ryanavent_93844/the-productivity-paradox-aaf05e5e4aad" target="\_bank">∎</a></p>
+
+<p><strong><em>On the phenomenon of bullshit jobs</em>,</strong> an essay by David Graeber, argues that productive jobs were automated away over the course of the 20th Century. Instead of the tech-enabled 15-hour work week predicted by John Maynard Keynes, society invented jobs that probably don’t need to exist. <a href="https://libcom.org/library/phenomenon-bullshit-jobs-david-graeber" target="\_bank">∎</a></p>
+
+<h3 id="automation-of-intelligence">Automation of intelligence</h3>
+
+<p><strong>Martin Ford, author of Rise of the Robots,</strong> is among the chorus arguing that Artificial Intelligence may disrupt industries and job markets on a far larger scale than previous forms of technological automation.
+<a href="https://www.uc.pt/feuc/citcoimbra/Martin_Ford-Rise_of_the_Robots" target="\_bank">∎</a></p>
+
+<p><strong>Deep learning is different.</strong> Unlike task-oriented algorithms which follow explicit instructions, deep learning algorithms examine unstructured data, discover their own rules, and make predictions; they are starting to be used to tackle more ambiguous problems, including complex societal challenges.</p>
+
+<p><strong>University of Southern California’s Centre for Artificial Intelligence and Society (CAIS)</strong> uses predictive modeling to prescribe interventions into pressing challenges including homelessness, substance abuse, and HIV prevention. One CAIS application, AI for Conservation, predicts where resource adversaries (e.g. poachers) will strike and alerts defenders (e.g. rangers) and advises patrols. <a href="https://www.cais.usc.edu/projects/" target="\_bank">∎</a></p>
+
+<p><strong>Deep learning is being used to identify illnesses</strong> in patients by recognizing subtle features in diagnostics data that are easily missed by medical professionals. Additionally, deep learning has sped up research, design, and development of new treatments and drugs. BenevolentBio, the biomedical arm of AI company BenevolentAI, drew connections across hundreds of scientific studies and identified five molecular compounds with properties that could be helpful in treating ALS, four of which were previously missed by pharmaceutical researchers.
+<a href="https://benevolent.ai" target="\_bank">∎</a></p>
+
+<p><strong>DeepMind’s AlphaGo</strong> became proficient at playing expert-level Go by studying 30 million moves from human games using a technique called “Deep Reinforcement Learning.” Although AlphaGo was trained to play Go, DeepMind hopes to use Go’s underlying intelligence to take on grander problems such as reducing energy consumption and discovering new materials.
+<a href="https://deepmind.com/blog/alphagos-next-move/" target="\_bank">∎</a></p>
+
+<h3 id="in-a-world-with-less-work">In a world with less work</h3>
+
+<p><strong>Matthew Yglesias, Vox co-founder and author of <em>The Rent Is Too Damn High</em>,</strong> argues that robots are never going to take all the jobs. The idea of a less-work future, he suggests, is more likely and should be welcomed. Yglesias provides a list of policy ideas for a world with less work. It includes increasing paid-vacation days, reducing high-school and college dropout rates, and emulating Sweden’s 480 days of paid leave for new parents.
+<a href="https://www.vox.com/2015/7/27/9038829/automation-myth" target="\_bank">∎</a></p>
+
+<p><strong>Elon Musk,</strong> founder of Tesla and SpaceX, is among many technology and business leaders who say that given the pace at which AI and robotics are likely to displace workers, a universal basic income system will be needed.
+<a href="https://www.fastcompany.com/4030576/elon-musk-says-automation-will-make-a-universal-basic-income-necessary-soon" target="\_bank">∎</a></p>
+
+<p><strong>Universal Basic Income (UBI)</strong> refers to the idea of distributing a sufficient living wage, without conditions or restrictions, to all individuals in a society. In September 2017, Y Combinator proposed a plan for extensive quantitative research into UBI. The study aims to measure UBI’s impact on individuals’ economic, social, and physiological self-sufficiency and well-being.
+<a href="https://static1.squarespace.com/static/599c23b2e6f2e1aeb8d35ec6/t/59c3188c4c326da3497c355f/1505958039366/YCR-Basic-Income-Proposal.pdf" target="\_bank">∎</a></p>
+
+<p><strong>GiveDirectly</strong>—a non-profit organization that manages cash transfers to the poor using electronic end-to-end monitoring and payment technology—is running an experiment testing the impact of different models of basic income over 12 years in Kenya.
+<a href="https://www.givedirectly.org/" target="\_bank">∎</a></p>
+
+<p><strong>Grantcoin</strong> is a blockchain currency distributed in the form of unconditional basic income grants. It is the first cryptocurrency managed and distributed by a non-profit organization.
+<a href="http://www.grantcoin.org/" target="\_bank">∎</a></p>
+
+<p><strong>American Equity,</strong> where every adult US citizen would receive an annual share of the US GDP is a concept suggested in a blog post by Y-combinator president, Sam Altman. He says: owning something like a share in America would align all of us in making the country as successful as possible.
+<a href="http://blog.samaltman.com/american-equity" target="\_bank">∎</a></p>
+
+<p><strong>UBI is an “old socialist welfare state idea,”</strong> says British sociologist Steven Fuller. He proposes that multinational technology companies should be held accountable for the effects of technological unemployment. Fuller says “we could make sure that people, like those who are currently ‘voluntarily’ contributing their data to pump up companies’ profits, are given something that is adequate to support their livelihoods in exchange.”
+<a href="https://futurism.com/ubi-universal-basic-income-alternative/" target="\_bank">∎</a></p>
+
+<p><strong>In meme-culture,</strong> the phrase “fully automated luxury gay space communism” (FALGSC) satirically represents a leftist-utopian vision. FALGSC is a post-scarcity economy characterized by hyperbolically amplified notions of identity liberalism, Marxism, and techno-optimism.
+<a href="http://knowyourmeme.com/memes/fully-automated-luxury-gay-space-communism" target="\_bank">∎</a></p>
+
+<h3 id="speculative-societies">Speculative societies</h3>
+
+<p><strong>The Seasteading Institute,</strong> a nonprofit organization raising funds to build floating startup societies with innovative governance models, announced an agreement with French Polynesia to co-create a seazone with “a special government framework” for floating islands in the protected waters of a Tahitian lagoon.
+<a href="https://www.seasteading.org/" target="\_bank">∎</a></p>
+
+<p><strong>Alphabet’s Sidewalk Labs,</strong> announced a partnership with the city of Toronto to develop 800 acres of waterfront property. The Google spinoff promises the efficiency gained through its data-driven management tools and robotics will provide a means to affordable housing, more convenient transit, and safer community experiences.
+<a href="https://sidewalktoronto.ca/" target="\_bank">∎</a></p>
+
+<p><strong>Crown Prince Mohammed bin Salman announced plans to build NEOM,</strong> a city, with more robots than humans, described as an open-source platform where everything will be connected to the internet and linked to artificial intelligence.
+<a href="http://discoverneom.com/" target="\_bank">∎</a></p>
+
+<h3 id="time-meaning-music-and-work">Time, meaning, music, and work</h3>
+
+<p><strong>The tradition of the Work Song is as old as recorded history,</strong> tied to activities from hunting (as in the Mbuti Elephant-hunting song) to typing (as in Dolly Parton’s Nine to Five). Work songs may be sung while performing a task to keep time and orchestrate activities; to pass time and fend off tedium; or to describe and protest the task. Work Songs may also recall the conditions of labour, reflecting on a job; bragging about the performer’s execution of the task; or ascribing significance to the efforts and outcomes of labour.</p>
+
+<p><strong><em>Early in the Morning</em></strong> is an “axe-cutting song” recorded at a Mississippi State Penitentiary in 1939. The song functionally coordinated the labour of groups of prison workers.
+<a href="https://www.loc.gov/item/lomaxbib000368/" target="\_bank">∎</a></p>
+
+<p><strong>On <em>Working Class Hero</em>,</strong> John Lennon characterizes a dismal choice, presented to young people coming of age in capitalism, between two willful delusions: 1) subscribing to the American dream and learning to “smile as you kill” or 2) imagining that your state of wokeness enables you to transcend the system (thinking you’re “clever and classless and free”).</p>
+
+<p><strong>SZA’s <em>Broken Clocks</em></strong> laments the loss of time, spent working, which might have been otherwise allocated.
+<a href="https://genius.com/Sza-broken-clocks-lyrics" target="\_bank">∎</a></p>
+
+<p><strong><em>Grindin’</em> by the Clipse</strong> celebrates the intrinsic value of the hustle, as well as its fruits.
+<a href="https://genius.com/Clipse-grindin-lyrics" target="\_bank">∎</a></p>
+
+<p><strong>Camp Ka Champ</strong> is a Western Union-sponsored singing contest for Dubai’s labour community. Migrant workers in over 70 Dubai labour camps sing Bollywood songs in competition for cash and prizes. “Champ of the Camp,” a documentary about the contest, tells the story of workers who sing to escape the realities of a life of toil away from family and home.
+<a href="https://www.youtube.com/watch?v=nX0SBfmaPEY" target="\_bank">∎</a></p>
+
+<h2 id="-performances-">[ Performances ]</h2>
+
+<p>“Lonely Arcade” was premiered at Toronto’s Nuit Blanche on October 3, 2015.</p>
+
+<p>It was also performed at the North American Basic Income Guarantee Congress at McMaster University on May 26, 2018.</p>
+
+            </section>
+            <footer class="left-bar">
+    <div class="social">
+        <br>
+        <p>Email us at <a href="mailto:mail@fromlater.com">mail@fromlater.com</a></p>
+        <p>Subscribe to our newsletter:</p>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+            <form
+                action="https://fromlater.us17.list-manage.com/subscribe/post?u=b1b32d764bc713886074f83b3&amp;id=2895e0feb8"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                        <!-- <label for="mce-EMAIL">e-mail </label> -->
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                            placeholder="Your email">
+                        <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe"
+                            class="button">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                            name="b_b1b32d764bc713886074f83b3_2895e0feb8" tabindex="-1" value=""></div>
+                    <!-- <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> -->
+                </div>
+            </form>
+        </div>
+        <!--End mc_embed_signup-->
+        <br>
+        <p class="dim">You can unsubscribe at any time by clicking on the unsubscribe link at the bottom of our emails.
+        </p>
+        <div class="social-links">
+            <div>
+                <a href="https://twitter.com/since21XX">Twitter</a>
+            </div>
+            <div>
+                <a href="https://www.are.na/from-later">Are.na</a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/channel/UCfG3rgQK6iwTKTDEPQRl88Q">YouTube</a>
+            </div>
+            <div>
+                <a href="https://linkedin.com/company/fromlater">LinkedIn</a>
+            </div>
+            <div>
+                <a href="https://instagram.com/memorywork_">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+        </div>
+    </body>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-110955218-3', 'auto');
+ga('send', 'pageview');
+</script>
+
+</html>
